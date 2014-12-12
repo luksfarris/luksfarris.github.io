@@ -36,12 +36,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Home</a>
+          <a class="navbar-brand" href="#">Home</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="#">Sobre</a></li>
-            <li><a href="contato.html">Contato</a></li>
+            <li><a href="#">Contato</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projetos<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -59,15 +59,45 @@
 
 	
       <ol class="breadcrumb">
-        <li class="active">Home</li>
+        <li><a href="index.html">Home</a></li>
+		<li class="active">Contato</li>
       </ol>
-	
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Bem vindo</h1>
-        <p>Esta página está aqui temporiamente. Tente voltar novamente mais tarde.</p>
-        <p><a href="#" class="btn btn-primary btn-lg" role="button">Leia mais &raquo;</a></p>
-      </div>
+	  
+	  
+	  
+	  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Enviar Mensagem</button>
+
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="exampleModalLabel">Enviar Mensagem</h4>
+			  </div>
+			  <div class="modal-body">
+				<form role="form">
+				  <div class="form-group">
+					<label for="sender-name" class="control-label">Seu nome:</label>
+					<input type="text" class="form-control" id="sender-name" required placeholder="Nome">
+				  </div>
+				  <div class="form-group">
+					<label for="sender-mail" class="control-label">Seu email:</label>
+					<input type="email" class="form-control" id="sender-mail" required placeholder="exemplo@ex.com">
+				  </div>
+				  <div class="form-group">
+					<label for="message-text" class="control-label">Mensagem:</label>
+					<textarea class="form-control" id="message-text"></textarea>
+				  </div>
+				</form>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+				<button type="button" class="btn btn-primary">Enviar</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
 
       
 

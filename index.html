@@ -1,86 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
-
-    <title>Farris</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap theme -->
-    <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="theme.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body role="document">
-
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Home</a>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Farris</title>
+  <meta name="description" content="Farris: Content from Lucas G. Farris " />
+  <meta name="keywords" content="science, development, programming, research, music, arts" />
+  <meta name="author" content="Lucas Farris" />
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400|Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="DraggableDualViewSlideshow/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="DraggableDualViewSlideshow/css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="DraggableDualViewSlideshow/css/dragdealer.css" />
+  <link rel="stylesheet" type="text/css" href="DraggableDualViewSlideshow/css/component.css" />
+  <link rel="stylesheet" type="text/css" href="OffCanvasMenuEffects/css/menu_topexpand.css" />
+  <link rel="stylesheet" type="text/css" href="OffCanvasMenuEffects/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+  
+  <script src="DraggableDualViewSlideshow/js/modernizr.custom.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="menu-wrap">
+      <nav class="menu">
+        <div class="icon-list">
+          <a href="#"><i class="fa fa-fw fa-newspaper-o"></i><span>All Articles</span></a>
+          <a href="#"><i class="fa fa-fw fa-heart-o"></i><span>Share</span></a>
+          <a href="mailto:lucas@farris.com.br"><i class="fa fa-fw fa-envelope-o"></i><span>Email me</span></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#">Sobre</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projetos<span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li class="dropdown-header">Pessoais</li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Acadêmicos</li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
+      </nav>
+    </div>    
+    <div class="content-wrap">
+      <header id="header" class="codrops-header">
+        <button class="menu-switch menu-button" id="open-button"></button>
+        <button class="slider-switch">Switch view</button>
+      </header>
+      <div id="slideshow" class="dragslider">
+        <section class="img-dragger img-dragger-large dragdealer">
+          <div class="handle">
+            <div class="slide" data-content="content-2">
+              <div class="img-wrap"><img src="img/dep.jpg" alt="img2"/></div>
+              <h2>On Depression<span>And the post modern drama of a lost generation</span></h2>
+              <button class="content-switch">Read more</button>
+            </div>
+            <div class="slide" data-content="content-1">
+              <div class="img-wrap"><img src="img/whoami.jpg" alt="img1"/></div>
+              <h2>Who am I ?<span>The kid with one million unfinished projects</span></h2>
+              <button class="content-switch">Read more</button>
+            </div>
+          </div>
+        </section><!-- /img-dragger-->
+        <!-- Content section -->
+        <section class="pages">
+          <div class="content" data-content="content-1">
+          <h2>>whoami<span>The kid with one million unfinished projects</span></h2>
+            <p>Among the things I have purported to be, I am an artist, a musician/producer,  a natural athlete and a game developer. To tell you the truth I am an <a href="https://www.behance.net/luksfarris" target="_blank">average artist</a>, I've only produced <a href="https://soundcloud.com/luksfarris" target="_blank">bad stuff</a> for myself, I made some <a href="http://luksfarris.newgrounds.com/" target="_blank">shitty games</a>, and I won't even link to any sports.</p>
+            <p>I am a young adult based in São Paulo. Taller than most people, and a little overweight (hopefully not for long). White male, brunette, brown eyes. Extremely nice and polite, maybe too much. If I wanted to ask you a question, I'd probably start off by asking for permission to do so. My alignment in D&amp;D would be lawful good, nerds.</p>
+            <p>Now for some facts: I have a bachelor's degree in Computer Science. I am pursuing a McS degree in machine learning and bioinformatics. I work (and have worked for a while) as a software engineer.</p>
+            <p>This is a personal experience. I found that writing about myself helps me discover aspects of my life I was unaware of, prior to thinking about it. In this site I will share my experiences and thoughts.</p>
+            <p>Stay tuned</p>
+          </div>
+          <div class="content" data-content="content-2">
+            <h2>On Depression<span>And the post modern drama of a lost generation</span></h2>
+            <p>Maybe this has to do with my latest growing addiction to <a href="https://soundcloud.com/dpat" target="_blank">dpat</a>, but maybe listening to is just a reason to write. The subtitle is aggressive, on purpose. I consider my generation (born in the early 90's) lost. No lost as in useless or failed. Lost as in we don't know where to go, nor where we are.</p>
+            <p> We were taught a supposedly perfect recipe for a good life: <strong>Study hard, build a career, create a family, retire, die</strong>. Kids my age recently graduated, or are about to. You know what I see? A bunch of people who wanted to be artists, musicians, and many other lost dreams; but became lawyers, engineers and doctors.</p>
+            <p> This situation is the cause for the disease I call post modern drama (I've had it for about five years), which many times lead to the following symptoms - you probably have a good portion of them:</p>
+            <p>
+            - Stress</br>
+            - Distress</br>
+            - Apathy</br>
+            - Insomnia</br>
+            - Depression</br>
+            </p>
+            <p>There are deeper problems, such as failed relationships, shitty jobs, procrastination, sedentarism. Is there a better way to die inside? I often spend nights awoken, sitting on the edge of my bedroom window, gazing upon the empty streets. Thinking about jumping. Just thinking, I'll never jump; I still have too many dreams, too many unfinished projects. The thought of it somehow brings me peace.</p>
+            <p>Don't stop dreaming</p>
+          </div>
+        </section>
       </div>
-    </nav>
+    </div>
+  </div><!-- /container --> 
+  
+  <script src="DraggableDualViewSlideshow/js/dragdealer.js"></script>
+  <script src="DraggableDualViewSlideshow/js/classie.js"></script>
+  <script src="DraggableDualViewSlideshow/js/dragslideshow.js"></script>
+  
+  <script src="OffCanvasMenuEffects/js/main.js"></script>
+  
+  <script>
+    (function() {
+      var header = document.getElementById( 'header' )
+      switchBtnn = header.querySelector( 'button.slider-switch' ),
+      toggleBtnn = function() {
+        if( slideshow.isFullscreen ) {
+          classie.add( switchBtnn, 'view-maxi' );
+        }
+        else {
+          classie.remove( switchBtnn, 'view-maxi' );
+        }
+      },
+      toggleCtrls = function() {
+        if( !slideshow.isContent ) {
+          classie.add( header, 'hide' );
+        }
+      },
+      toggleCompleteCtrls = function() {
+        if( !slideshow.isContent ) {
+          classie.remove( header, 'hide' );
+        }
+      },
+      slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), { 
+            // toggle between fullscreen and minimized slideshow
+            onToggle : toggleBtnn,
+            // toggle the main image and the content view
+            onToggleContent : toggleCtrls,
+            // toggle the main image and the content view (triggered after the animation ends)
+            onToggleContentComplete : toggleCompleteCtrls
+          }),
+      toggleSlideshow = function() {
+        slideshow.toggle();
+        toggleBtnn();
+      };
 
-    <div class="container theme-showcase" role="main">
+        // toggle between fullscreen and small slideshow
+        switchBtnn.addEventListener( 'click', toggleSlideshow );
 
-	
-      <ol class="breadcrumb">
-        <li class="active">Home</li>
-      </ol>
-	
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Bem vindo</h1>
-        <p>Esta página está aqui temporiamente. Tente voltar novamente mais tarde.</p>
-        <p><a href="#" class="btn btn-primary btn-lg" role="button">Leia mais &raquo;</a></p>
-      </div>
-
-      
-
-
-	
-
-    </div> <!-- /container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-  </body>
+      }());
+</script>
+</body>
 </html>

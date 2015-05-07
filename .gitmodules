@@ -1,0 +1,7 @@
+[submodule "DraggableDualViewSlideshow"]
+	path = DraggableDualViewSlideshow
+	url = https://github.com/codrops/DraggableDualViewSlideshow
+
+[submodule "OffCanvasMenuEffects"]
+	path = OffCanvasMenuEffects
+	url = https://github.com/codrops/OffCanvasMenuEffects.git

@@ -26,14 +26,14 @@
 		<div class="dialog__overlay"></div>
 		<div class="dialog__content">
 			<div id="disqus_thread"></div>
-				<script type="text/javascript">
-				    (function() {
-				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-				        dsq.src = '//' + 'lucasfarris' + '.disqus.com/embed.js';
-				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-				    })();
-				</script>
-				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+			<script type="text/javascript">
+				(function() {
+					var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					dsq.src = '//' + 'lucasfarris' + '.disqus.com/embed.js';
+					(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 			<div><button class="action" data-dialog-close>Close</button></div>
 		</div>
 	</div>
@@ -56,8 +56,13 @@
 			<div id="slideshow" class="dragslider">
 				<section class="img-dragger img-dragger-large dragdealer">
 					<div class="handle">
+						<div class="slide" data-content="content-4">
+							<div class="img-wrap"><img src="img/photos.jpg" alt="img4"/></div>
+							<h2>Photographs<span>And lying to yourself</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
 						<div class="slide" data-content="content-3">
-							<div class="img-wrap"><img src="img/sayno.jpg" alt="img1"/></div>
+							<div class="img-wrap"><img src="img/sayno.jpg" alt="img3"/></div>
 							<h2>Saying Yes<span>The story of the boy who never said no</span></h2>
 							<button class="content-switch">Read more</button>
 						</div>
@@ -77,7 +82,7 @@
 				<section class="pages">
 					<div class="content" data-content="content-1">
 						<h2>>whoami<span>The kid with one million unfinished projects</span></h2>
-						<p>Among the things I have purported to be, I am an artist, a musician/producer,  a natural athlete and a game developer. To tell you the truth I am an <a href="https://www.behance.net/luksfarris" target="_blank">average artist</a>, I've only produced <a href="https://soundcloud.com/luksfarris" target="_blank">bad stuff</a> for myself, I made some <a href="http://luksfarris.newgrounds.com/" target="_blank">shitty games</a>, and I won't even link to any sports.</p>
+						<p>Among the things I have purported to be, I am an artist, a musician/producer,  a natural athlete and a game developer. To tell you the truth I am an <a href="#" target="_blank">average artist</a>, I've only produced <a href="#" target="_blank">bad stuff</a> for myself, I made some <a href="#" target="_blank">shitty games</a>, and I won't even link to any sports.</p>
 						<p>I am a young adult based in São Paulo. Taller than most people, and a little overweight (hopefully not for long). White male, brunette, brown eyes. I'm avarage on every aspect. Extremely nice and polite, maybe too much. If I wanted to ask you a question, I'd probably start off by asking for permission to do so. My alignment in D&amp;D would be lawful good, nerds.</p>
 						<p>Now for some facts: I have a bachelor's degree in Computer Science. I am pursuing a MSc degree in machine learning and bioinformatics. I work (and have worked for a while) as a software engineer.</p>
 						<p>This is a personal experience. I found that writing about myself helps me discover aspects of my life I was unaware of, prior to thinking about it. In this site I will share my experiences and thoughts.</p>
@@ -107,47 +112,58 @@
 						<p>I'm still far from it, but to recognize I'm on the way is already something.</p>
 						<p>Start saying no.</p>
 					</div>
-				</section>
+					<div class="content" data-content="content-4">
+						<h2>Photographs<span>And lying to yourself</span></h2>
+						<p>I despise phographs. And not because look horrible on them. There was a time in my life when I was very sad, miserable indeed. One day I glanced at a picture frame, and the people there were smiling. Even though they didn't like each other, they were together smiling. That marked me. Photos became lies to me ever since. There were moments in my life I was very happy, and I don't feel the need to remember them. When I do remember them, I suddenly feel good, and that is enough.</p>
+						<p>I recently took an E. Schein psychological test and the first time I filled in the answers I was not satisfied. Something was wrong. I asked a feel questions to someone close to me, and the way the person described me was different from who I was portraying in the answers. Funny. Who I think I am is different from who I act like.</p>
+						<p> I ended up rewriting the whole thing, and the results explained so much about me, I was shocked. I have to admit I was a little skeptic, but it turns out it made me see why I wasn't happy on my previous job and the reason I'm happy on the new one. Also how to make it even better. Of course the test is for my present self, it's a photograph of my personality today, but how fast do we really change? And at least on this picture there are no lies.</p>
+						<p>As Shakespeare wrote in Hamlet:</p>
+						<p><code>This above all: to thine own self be true,
+							And it must follow, as the night the day,
+							Thou canst not then be false to any man.
+							Farewell, my blessing season this in thee!</code></p>
+						</div>
+					</section>
+				</div>
 			</div>
-		</div>
-	</div><!-- /container --> 
+		</div><!-- /container --> 
 
-	<script src="DraggableDualViewSlideshow/js/dragdealer.js"></script>
-	<script src="DraggableDualViewSlideshow/js/classie.js"></script>
-	<script src="DraggableDualViewSlideshow/js/dragslideshow.js"></script>
-	<script src="DialogEffects/DialogEffects/js/dialogFx.js"></script>
-	<script src="OffCanvasMenuEffects/js/main.js"></script>
+		<script src="DraggableDualViewSlideshow/js/dragdealer.js"></script>
+		<script src="DraggableDualViewSlideshow/js/classie.js"></script>
+		<script src="DraggableDualViewSlideshow/js/dragslideshow.js"></script>
+		<script src="DialogEffects/DialogEffects/js/dialogFx.js"></script>
+		<script src="OffCanvasMenuEffects/js/main.js"></script>
 
-	<script>
-		(function() {
+		<script>
+			(function() {
 
-			var dlgtrigger = document.querySelector( '[data-dialog]' ),
-			somedialog = document.getElementById( dlgtrigger.getAttribute( 'data-dialog' ) ),
-			dlg = new DialogFx( somedialog );
+				var dlgtrigger = document.querySelector( '[data-dialog]' ),
+				somedialog = document.getElementById( dlgtrigger.getAttribute( 'data-dialog' ) ),
+				dlg = new DialogFx( somedialog );
 
-			dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+				dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
 
-			var header = document.getElementById( 'header' )
-			switchBtnn = header.querySelector( 'button.slider-switch' ),
-			toggleBtnn = function() {
-				if( slideshow.isFullscreen ) {
-					classie.add( switchBtnn, 'view-maxi' );
-				}
-				else {
-					classie.remove( switchBtnn, 'view-maxi' );
-				}
-			},
-			toggleCtrls = function() {
-				if( !slideshow.isContent ) {
-					classie.add( header, 'hide' );
-				}
-			},
-			toggleCompleteCtrls = function() {
-				if( !slideshow.isContent ) {
-					classie.remove( header, 'hide' );
-				}
-			},
-			slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), { 
+				var header = document.getElementById( 'header' )
+				switchBtnn = header.querySelector( 'button.slider-switch' ),
+				toggleBtnn = function() {
+					if( slideshow.isFullscreen ) {
+						classie.add( switchBtnn, 'view-maxi' );
+					}
+					else {
+						classie.remove( switchBtnn, 'view-maxi' );
+					}
+				},
+				toggleCtrls = function() {
+					if( !slideshow.isContent ) {
+						classie.add( header, 'hide' );
+					}
+				},
+				toggleCompleteCtrls = function() {
+					if( !slideshow.isContent ) {
+						classie.remove( header, 'hide' );
+					}
+				},
+				slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), { 
             // toggle between fullscreen and minimized slideshow
             onToggle : toggleBtnn,
             // toggle the main image and the content view
@@ -155,10 +171,10 @@
             // toggle the main image and the content view (triggered after the animation ends)
             onToggleContentComplete : toggleCompleteCtrls
         }),
-			toggleSlideshow = function() {
-				slideshow.toggle();
-				toggleBtnn();
-			};
+				toggleSlideshow = function() {
+					slideshow.toggle();
+					toggleBtnn();
+				};
 
         // toggle between fullscreen and small slideshow
         switchBtnn.addEventListener( 'click', toggleSlideshow );

@@ -18,4 +18,8 @@ What instantly came to my mind is a bug I had on the IBA reader app (May 2014). 
 
 ##For which task(s) would you rather use a different programming language on Android? Please explain.
 
-I would use a different language if writing complex software that would run on different platforms. More specifically, if I would write software that relies heavily on networking, i/o, or data processing, and that software would have to run on other OS' like iOS or Windows: I would not use Java. I would use C++ instead. 
+I would use a different language if writing complex software that would run on different platforms. More specifically, if I would write software that relies heavily on networking, i/o, or data processing, and that software would have to run on other OS' like iOS or Windows: I would not use Java. I would use C++ instead.
+
+##Challenge
+
+In the folder /sbr you may find a little coding challenge. The core is in the class `SimpleBackgroundRunner.java`, and `SimpleTest.java` has a few unit tests. 

@@ -1,6 +1,7 @@
 ##What is the piece of code, you've written in Java, of which you are most proud? Please post a link (or attach the code).
 
-
+Unfortunately I do not have access to the source code of my favourite creations. Nevertheless, I once had to implement the Scatter Search Heuristic with a group for a small local competition, and it is on my GitHub account. Despite not being a good choice of heuristic for our problem, it performed almost as good as other competitors. The core can be found here (unfortunately it is in Portuguese):
+https://github.com/luksfarris/SS-TeamFormation/blob/master/TeamFormationScatterSearch/src/main/ScatterSearch.java
 
 ##What is your favorite language feature of Java? Please explain.
 

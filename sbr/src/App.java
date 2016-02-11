@@ -1,6 +1,4 @@
 
-
-
 /**
  * @author Lucas
  * @Challenge: Write a simple asynchronous event handling mechanism
@@ -19,15 +17,23 @@
  */
 public class App {
 
+	/**
+	 * Runs the app.
+	 */
 	public static void main(String[] args) {
-		
-		
-		SimpleBackgroundRunner sbr = new SimpleBackgroundRunner();
 		App app = new App();
+		app.testRunner();
+	}
+	
+	/**
+	 * Tests the runner.
+	 */
+	public void testRunner() {
+		SimpleBackgroundRunner sbr = new SimpleBackgroundRunner();
 		sbr.start();
-		sbr.postEvent(app.new RunnableTest(), app.new Callback());
-		sbr.postEvent(null, app.new Callback());
-		sbr.postEvent(app.new RunnableTest(), null);
+		sbr.postEvent(new DemoRunnable(), new DemoCallback());
+		sbr.postEvent(null, new DemoCallback());
+		sbr.postEvent(new DemoRunnable(), null);
 		sbr.postEvent(null, null);
 		try {
 			Thread.sleep(5000);//waits for everything to run
@@ -37,14 +43,14 @@ public class App {
 		sbr.interrupt();
 	}
 	
-	class RunnableTest implements Runnable {
+	public class DemoRunnable implements Runnable {
 		@Override
 		public void run() {
 			System.out.println("Hello World");
 		}
 	}
 	
-	class Callback implements RunnerCallback {
+	public class DemoCallback implements RunnerCallback {
 		@Override
 		public void onRunnerFinished(boolean success) {
 			System.out.println("Success = " + success);

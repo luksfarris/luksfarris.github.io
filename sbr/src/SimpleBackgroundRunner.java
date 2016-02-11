@@ -1,12 +1,14 @@
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+/**
+ * @author Lucas
+ * Simple thread to enqueue and run tasks in background. The running cycle is to wait
+ * 2 seconds, then do all the possible work.
+ */
 public class SimpleBackgroundRunner extends Thread {
 	
-	private ConcurrentLinkedQueue<Runner> pool;
-	
-	public SimpleBackgroundRunner() {
-		pool = new ConcurrentLinkedQueue<>();
-	}
+	/** Pool of jobs to be done. */
+	private ConcurrentLinkedQueue<Runner> pool = new ConcurrentLinkedQueue<>();
 	
 	@Override
 	public void run() {
@@ -15,11 +17,11 @@ public class SimpleBackgroundRunner extends Thread {
 			while (runner != null) {
 				boolean success = false;
 				if (runner.getRunnable() != null) {
-					runner.getRunnable().run();
+					runner.getRunnable().run(); // runs if possible
 					success = true;
 				}
 				if (runner.getCallback() != null) {
-					runner.getCallback().onRunnerFinished(success);
+					runner.getCallback().onRunnerFinished(success); // sends callback if possible
 				}
 				runner = pool.poll();
 			}
@@ -32,8 +34,12 @@ public class SimpleBackgroundRunner extends Thread {
 		}
 	}
 	
+	/**
+	 * Adds a runnable to the event pool.
+	 * @param runnable runnable to be ran in background.
+	 * @param callback callback to be called in bg thread!
+	 */
 	public void postEvent (Runnable runnable, RunnerCallback callback) {
 		pool.offer(new Runner(runnable, callback));
-		System.out.println("Added an event. Event count = " + pool.size());
 	}
 }

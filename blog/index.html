@@ -19,7 +19,9 @@
 	<link rel="stylesheet" type="text/css" href="DialogEffects/DialogEffects/css/dialog.css" />
 	<link rel="stylesheet" type="text/css" href="DialogEffects/DialogEffects/css/dialog-alex.css" />
 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	<script src="DraggableDualViewSlideshow/js/modernizr.custom.js"></script>
+
 </head>
 <body>
 	<div id="somedialog" class="dialog">
@@ -42,8 +44,12 @@
 			<nav class="menu">
 				<div class="icon-list">
 					<a href="#"><i class="fa fa-fw fa-newspaper-o"></i><span>All Articles</span></a>
-					<a href="#" data-dialog="somedialog" class="trigger"><i class="fa fa-fw fa-comment-o"></i><span>Comments</span></a>
-					<a href="#"><i class="fa fa-fw fa-heart-o"></i><span>Share</span></a>
+					<a href="https://www.instagram.com/luksfarris/" target="_blank">
+						<i class="fa fa-fw fa-camera-retro"></i><span>Instagram</span>
+					</a>
+					<a href="#" class="fb-share" target="_blank">
+						<i class="fa fa-fw fa-heart-o"></i><span>Share</span>
+					</a>
 					<a href="mailto:lucas@farris.com.br"><i class="fa fa-fw fa-envelope-o"></i><span>Email me</span></a>
 				</div>
 			</nav>
@@ -56,130 +62,66 @@
 			<div id="slideshow" class="dragslider">
 				<section class="img-dragger img-dragger-large dragdealer">
 					<div class="handle">
-						<div class="slide" data-content="content-4">
-							<div class="img-wrap"><img src="img/photos.jpg" alt="img4"/></div>
-							<h2>Photographs<span>And lying to yourself</span></h2>
-							<button class="content-switch">Read more</button>
-						</div>
-						<div class="slide" data-content="content-3">
-							<div class="img-wrap"><img src="img/sayno.jpg" alt="img3"/></div>
-							<h2>Saying Yes<span>The story of the boy who never said no</span></h2>
-							<button class="content-switch">Read more</button>
-						</div>
-						<div class="slide" data-content="content-2">
-							<div class="img-wrap"><img src="img/dep.jpg" alt="img2"/></div>
-							<h2>On Depression<span>And the post modern drama of a lost generation</span></h2>
-							<button class="content-switch">Read more</button>
-						</div>
-						<div class="slide" data-content="content-1">
-							<div class="img-wrap"><img src="img/whoami.jpg" alt="img1"/></div>
-							<h2>Who am I ?<span>The kid with one million unfinished projects</span></h2>
-							<button class="content-switch">Read more</button>
-						</div>
+
 					</div>
 				</section><!-- /img-dragger-->
 				<!-- Content section -->
 				<section class="pages">
-					<div class="content" data-content="content-1">
-						<h2>>whoami<span>The kid with one million unfinished projects</span></h2>
-						<p>Among the things I have purported to be, I am an artist, a musician/producer,  a natural athlete and a game developer. To tell you the truth I am an <a href="#" target="_blank">average artist</a>, I've only produced <a href="#" target="_blank">bad stuff</a> for myself, I made some <a href="#" target="_blank">shitty games</a>, and I won't even link to any sports.</p>
-						<p>I am a young adult based in São Paulo. Taller than most people, and a little overweight (hopefully not for long). White male, brunette, brown eyes. I'm avarage on every aspect. Extremely nice and polite, maybe too much. If I wanted to ask you a question, I'd probably start off by asking for permission to do so. My alignment in D&amp;D would be lawful good, nerds.</p>
-						<p>Now for some facts: I have a bachelor's degree in Computer Science. I am pursuing a MSc degree in machine learning and bioinformatics. I work (and have worked for a while) as a software engineer.</p>
-						<p>This is a personal experience. I found that writing about myself helps me discover aspects of my life I was unaware of, prior to thinking about it. In this site I will share my experiences and thoughts.</p>
-						<p>Stay tuned</p>
-					</div>
-					<div class="content" data-content="content-2">
-						<h2>On Depression<span>And the post modern drama of a lost generation</span></h2>
-						<p>Maybe this has to do with my latest growing addiction to <a href="https://soundcloud.com/dpat" target="_blank">dpat</a>, but maybe listening to it is just a reason to write. The subtitle is aggressive, on purpose. I consider my generation (born in the early 90's) lost. Not lost as in useless or failed. Lost as in we don't know where to go, nor where we are.</p>
-						<p> We were taught a supposedly perfect recipe for a good life: <strong>Study hard, build a career, create a family, retire, die</strong>. Kids my age recently graduated, or are about to. You know what I see? A bunch of people who wanted to be artists, musicians, and many other lost dreams; but became lawyers, engineers, and doctors.</p>
-						<p> This situation is the cause for the disease I call post modern drama (I've had it for about five years), which many times lead to the following symptoms - you probably have a good portion of them:</p>
-						<p>
-							- Stress</br>
-							- Distress</br>
-							- Apathy</br>
-							- Insomnia</br>
-							- Depression</br>
-						</p>
-						<p>There are deeper problems, such as failed relationships, shitty jobs, procrastination, sedentarism. Is there a better way to die inside? I often spend nights awoken, sitting on the edge of my bedroom window, gazing upon the empty streets. Thinking about jumping. Just thinking, I'll never jump; I still have too many dreams, too many unfinished projects. The thought of it somehow brings me peace.</p>
-						<p>Don't stop dreaming</p>
-					</div>
-					<div class="content" data-content="content-3">
-						<h2>Saying Yes<span>The story of the boy who never said no</span></h2>
-						<p>Have you ever seen the movie <a href="http://www.imdb.com/title/tt1068680/" target="_blank">Yes Man</a>? Sometimes I feel like that movie was based on me. I have a real problem saying no to people. It is one of the reasons why I have so many unfinished projects. </p> 
-						<p> I get so caught up in so many things I'm doing for other people, I don't really have time for myself. Heck, sometimes I can't even say no to myself. </p>
-						<p>One of these days I read an article about how saying no is good to everyone. Basically you won't compromise, and the person asking you will have to deal with it. The article was referring to software features, but it applies well to life. When you say no to someone's request, it means you  want to focus on what really matters to you. Afterall, we should do what matters the most to ourselves, not to someone else. </p>
-						<p>Keep in mind who you are, and what you want to do with your life. I've been using mine to serve others, and I've called myself free my whole life. Everyday I let go of something or someone. Everyday I learn a little more of what freedom really means.</p>
-						<p>I'm still far from it, but to recognize I'm on the way is already something.</p>
-						<p>Start saying no.</p>
-					</div>
-					<div class="content" data-content="content-4">
-						<h2>Photographs<span>And lying to yourself</span></h2>
-						<p>I despise photographs. And not because I look horrible on them. There was a time in my life when I was very sad, miserable indeed. One day I glanced at a picture frame, and the people there were smiling. Even though they didn't like each other, they were together smiling. That marked me. Photos became lies to me ever since. There were moments in my life I was very happy, and I don't feel the need to remember them. When I do remember them, I suddenly feel good, and that is enough.</p>
-						<p>I recently took an E. Schein psychological test and the first time I filled in the answers I was not satisfied. Something was wrong. I asked a few questions to someone close to me, and the way the person described me was different from who I was portraying in the answers. Funny. Who I think I am is different from who I act like.</p>
-						<p> I ended up rewriting the whole thing, and the results explained so much about me, I was shocked. I have to admit I was a little skeptic, but it turns out it made me see why I wasn't happy on my previous job and the reason I'm happy on the new one. Also how to make it even better. Of course the test is for my present self, it's a photograph of my personality today, but how fast do we really change? And at least on this picture there are no lies.</p>
-						<p>As Shakespeare wrote in Hamlet:</p>
-						<p><code>This above all: to thine own self be true,
-							And it must follow, as the night the day,
-							Thou canst not then be false to any man.
-							Farewell, my blessing season this in thee!</code></p>
-						</div>
-					</section>
-				</div>
+					
+				</section>
 			</div>
-		</div><!-- /container --> 
+		</div>
+	</div><!-- /container --> 
 
-		<script src="DraggableDualViewSlideshow/js/dragdealer.js"></script>
-		<script src="DraggableDualViewSlideshow/js/classie.js"></script>
-		<script src="DraggableDualViewSlideshow/js/dragslideshow.js"></script>
-		<script src="DialogEffects/DialogEffects/js/dialogFx.js"></script>
-		<script src="OffCanvasMenuEffects/js/main.js"></script>
+	<script type="text/javascript" src="blog.js"></script>
+	<script src="DraggableDualViewSlideshow/js/dragdealer.js"></script>
+	<script src="DraggableDualViewSlideshow/js/classie.js"></script>
+	<script src="DraggableDualViewSlideshow/js/dragslideshow.js"></script>
+	<script src="DialogEffects/DialogEffects/js/dialogFx.js"></script>
+	<script src="OffCanvasMenuEffects/js/main.js"></script>
 
-		<script>
-			(function() {
+	<script>
+		(function() {
 
-				var dlgtrigger = document.querySelector( '[data-dialog]' ),
-				somedialog = document.getElementById( dlgtrigger.getAttribute( 'data-dialog' ) ),
-				dlg = new DialogFx( somedialog );
+			$("a.fb-share").attr("href", "https://www.facebook.com/sharer/sharer.php?u="+window.location.href)
 
-				dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+			var header = document.getElementById( 'header' )
+			switchBtnn = header.querySelector( 'button.slider-switch' ),
+			toggleBtnn = function() {
+				if( slideshow.isFullscreen ) {
+					classie.add( switchBtnn, 'view-maxi' );
+				}
+				else {
+					classie.remove( switchBtnn, 'view-maxi' );
+				}
+			},
+			toggleCtrls = function() {
+				if( !slideshow.isContent ) {
+					classie.add( header, 'hide' );
+				}
+			},
+			toggleCompleteCtrls = function() {
+				if( !slideshow.isContent ) {
+					classie.remove( header, 'hide' );
+				}
+			},
+			slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), { 
+	        // toggle between fullscreen and minimized slideshow
+	        onToggle : toggleBtnn,
+	        // toggle the main image and the content view
+	        onToggleContent : toggleCtrls,
+	        // toggle the main image and the content view (triggered after the animation ends)
+	        onToggleContentComplete : toggleCompleteCtrls
+	    	}),
+			toggleSlideshow = function() {
+				slideshow.toggle();
+				toggleBtnn();
+			};
 
-				var header = document.getElementById( 'header' )
-				switchBtnn = header.querySelector( 'button.slider-switch' ),
-				toggleBtnn = function() {
-					if( slideshow.isFullscreen ) {
-						classie.add( switchBtnn, 'view-maxi' );
-					}
-					else {
-						classie.remove( switchBtnn, 'view-maxi' );
-					}
-				},
-				toggleCtrls = function() {
-					if( !slideshow.isContent ) {
-						classie.add( header, 'hide' );
-					}
-				},
-				toggleCompleteCtrls = function() {
-					if( !slideshow.isContent ) {
-						classie.remove( header, 'hide' );
-					}
-				},
-				slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), { 
-            // toggle between fullscreen and minimized slideshow
-            onToggle : toggleBtnn,
-            // toggle the main image and the content view
-            onToggleContent : toggleCtrls,
-            // toggle the main image and the content view (triggered after the animation ends)
-            onToggleContentComplete : toggleCompleteCtrls
-        }),
-				toggleSlideshow = function() {
-					slideshow.toggle();
-					toggleBtnn();
-				};
+		    // toggle between fullscreen and small slideshow
+		    switchBtnn.addEventListener( 'click', toggleSlideshow );
 
-        // toggle between fullscreen and small slideshow
-        switchBtnn.addEventListener( 'click', toggleSlideshow );
-
-    }());
-</script>
+		}());
+	</script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 function createBlog() {
 
-    var totalPosts = 5;
+    var totalPosts = 6;
     var divHandle = $("div.handle");
     var sectionPages = $("section.pages");
 

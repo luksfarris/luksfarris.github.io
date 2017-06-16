@@ -1,6 +1,6 @@
 function createAll() {
 
-    var totalPosts = 6;
+    var totalPosts = 8;
     var divHandle = $("div.posts");
 
     divHandle.append("<p>")
@@ -9,7 +9,6 @@ function createAll() {
     	var post = readPostHeader(postPath);
 
         divHandle.append(i+") <a href=\"./page.html?p="+i+"\">"+post['title']+" - "+post['subtitle']+"</a></br>");
-		// divHandle.append(i+") <a href=/\"page.html?p="+i+"\">"+post['title']+" - "+post['subtitle']+"</a></br>");
 	}
     divHandle.append("</p>");
 }

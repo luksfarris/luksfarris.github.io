@@ -1,6 +1,6 @@
 function createAll() {
 
-    var totalPosts = 9;
+    var totalPosts = 10;
     var divHandle = $("div.posts");
 
     divHandle.append("<p>")

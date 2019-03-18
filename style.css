@@ -1,17 +1,53 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
 
-.container {
-	background-color: #ffffff;
-	width: 60%;
-	margin: 0 auto;
-	padding: 30px;
-	text-align: center;
+
+@media screen and (min-width: 500px) {
+	.container {
+		background-color: #ffffff;
+		width: 60%;
+		margin: 0 auto;
+		padding: 30px;
+		text-align: center;
+	}	
 }
 
-.container-header {
-	background-color: #329664;
-	padding: 20px
+@media screen and (max-width: 500px) {
+	.container {
+		background-color: #ffffff;
+		width: 80%;
+		margin: 0 auto;
+		padding: 30px;
+		text-align: center;
+	}	
 }
+
+@media screen and (max-width: 500px) and (min-width: 250px) {
+	.container-header {
+		background-color: #fff;
+		padding: 0px
+	}
+}
+
+@media screen and (max-width: 250px) {
+	.container-header {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	.container-header {
+		background-color: #329664;
+		padding: 20px
+	}
+}
+
+.social img{
+	margin: 20px;
+	width: 15%;
+	max-width: 76px;
+	min-width: 46px;
+}
+
 .container-header img {
 	border-radius: 50%;
 }
@@ -24,26 +60,17 @@
 }
 
 .cv {
-	background-color: white;
-	border-style: solid;
-	border-color: #329664;
 	display: inline-block;
 	padding: 12px;
-	border: 2px;
-	border-radius: 10px;
 }
 
-.cv a:link, a:visited {
+a:link, a:visited {
 	color: #329664;
-	text-decoration: none;
 }
 
 .cv img {
 	vertical-align:middle;
-}
-
-.social img{
-	margin: 20px;
+	margin-right: 12px;
 }
 
 body {

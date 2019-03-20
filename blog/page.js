@@ -7,13 +7,31 @@ function createPage() {
     div.append(body);
 }
 
-function readPostBody(path) {
-	var rawFile = new XMLHttpRequest();
+
+
+function readPostHeader(path) {
+    var rawFile = new XMLHttpRequest();
     rawFile.open("GET", path, false);
     var post;
     rawFile.onreadystatechange = function () {
-        if(rawFile.readyState === 4) {
-            if(rawFile.status === 200 || rawFile.status == 0) {
+        if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status == 0) {
+                var allText = rawFile.responseText;
+                post = JSON.parse(allText);
+            }
+        }
+    }
+    rawFile.send(null);
+    return post;
+}
+
+function readPostBody(path) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", path, false);
+    var post;
+    rawFile.onreadystatechange = function () {
+        if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status == 0) {
                 post = rawFile.responseText;
             }
         }

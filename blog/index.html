@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+
 <head>
 	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Farris</title>
 	<meta name="description" content="Farris: Content from Lucas G. Farris " />
 	<meta name="keywords" content="science, development, programming, research, music, arts" />
 	<meta name="author" content="Lucas Farris" />
 	<link rel="shortcut icon" href="../favicon.ico">
-	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400|Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400|Lato:300,400,700' rel='stylesheet'
+		type='text/css'>
 	<link rel="stylesheet" type="text/css" href="DraggableDualViewSlideshow/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="DraggableDualViewSlideshow/css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="DraggableDualViewSlideshow/css/dragdealer.css" />
 	<link rel="stylesheet" type="text/css" href="DraggableDualViewSlideshow/css/component.css" />
 	<link rel="stylesheet" type="text/css" href="OffCanvasMenuEffects/css/menu_topexpand.css" />
-	<link rel="stylesheet" type="text/css" href="OffCanvasMenuEffects/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css"
+		href="OffCanvasMenuEffects/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" type="text/css" href="DialogEffects/DialogEffects/css/dialog.css" />
 	<link rel="stylesheet" type="text/css" href="DialogEffects/DialogEffects/css/dialog-alex.css" />
 
@@ -23,6 +26,7 @@
 	<script src="DraggableDualViewSlideshow/js/modernizr.custom.js"></script>
 
 </head>
+
 <body>
 	<div class="container">
 		<div class="menu-wrap">
@@ -38,7 +42,7 @@
 					<a href="mailto:lucas@farris.com.br"><i class="fa fa-fw fa-envelope-o"></i><span>Email me</span></a>
 				</div>
 			</nav>
-		</div>    
+		</div>
 		<div class="content-wrap">
 			<header id="header" class="codrops-header">
 				<button class="menu-switch menu-button" id="open-button"></button>
@@ -52,13 +56,14 @@
 				</section><!-- /img-dragger-->
 				<!-- Content section -->
 				<section class="pages">
-					
+
 				</section>
 			</div>
 		</div>
-	</div><!-- /container --> 
+	</div><!-- /container -->
 
 	<script type="text/javascript" src="blog.js"></script>
+	<script type="text/javascript" src="all.js"></script>
 	<script src="DraggableDualViewSlideshow/js/dragdealer.js"></script>
 	<script src="DraggableDualViewSlideshow/js/classie.js"></script>
 	<script src="DraggableDualViewSlideshow/js/dragslideshow.js"></script>
@@ -66,47 +71,48 @@
 	<script src="OffCanvasMenuEffects/js/main.js"></script>
 
 	<script>
-		(function() {
+		(function () {
 
-			$("a.fb-share").attr("href", "https://www.facebook.com/sharer/sharer.php?u="+window.location.href)
+			$("a.fb-share").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href)
 
-			var header = document.getElementById( 'header' )
-			switchBtnn = header.querySelector( 'button.slider-switch' ),
-			toggleBtnn = function() {
-				if( slideshow.isFullscreen ) {
-					classie.add( switchBtnn, 'view-maxi' );
-				}
-				else {
-					classie.remove( switchBtnn, 'view-maxi' );
-				}
-			},
-			toggleCtrls = function() {
-				if( !slideshow.isContent ) {
-					classie.add( header, 'hide' );
-				}
-			},
-			toggleCompleteCtrls = function() {
-				if( !slideshow.isContent ) {
-					classie.remove( header, 'hide' );
-				}
-			},
-			slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), { 
-	        // toggle between fullscreen and minimized slideshow
-	        onToggle : toggleBtnn,
-	        // toggle the main image and the content view
-	        onToggleContent : toggleCtrls,
-	        // toggle the main image and the content view (triggered after the animation ends)
-	        onToggleContentComplete : toggleCompleteCtrls
-	    	}),
-			toggleSlideshow = function() {
-				slideshow.toggle();
-				toggleBtnn();
-			};
+			var header = document.getElementById('header')
+			switchBtnn = header.querySelector('button.slider-switch'),
+				toggleBtnn = function () {
+					if (slideshow.isFullscreen) {
+						classie.add(switchBtnn, 'view-maxi');
+					}
+					else {
+						classie.remove(switchBtnn, 'view-maxi');
+					}
+				},
+				toggleCtrls = function () {
+					if (!slideshow.isContent) {
+						classie.add(header, 'hide');
+					}
+				},
+				toggleCompleteCtrls = function () {
+					if (!slideshow.isContent) {
+						classie.remove(header, 'hide');
+					}
+				},
+				slideshow = new DragSlideshow(document.getElementById('slideshow'), {
+					// toggle between fullscreen and minimized slideshow
+					onToggle: toggleBtnn,
+					// toggle the main image and the content view
+					onToggleContent: toggleCtrls,
+					// toggle the main image and the content view (triggered after the animation ends)
+					onToggleContentComplete: toggleCompleteCtrls
+				}),
+				toggleSlideshow = function () {
+					slideshow.toggle();
+					toggleBtnn();
+				};
 
-		    // toggle between fullscreen and small slideshow
-		    switchBtnn.addEventListener( 'click', toggleSlideshow );
+			// toggle between fullscreen and small slideshow
+			switchBtnn.addEventListener('click', toggleSlideshow);
 
 		}());
 	</script>
 </body>
+
 </html>

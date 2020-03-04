@@ -1,6 +1,6 @@
 function createBlog() {
 
-    var totalPosts = 10;
+    var totalPosts = 11;
     var divHandle = $("div.handle");
     var sectionPages = $("section.pages");
 
@@ -30,7 +30,7 @@ function readPostBody(path) {
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", path, false);
     var post;
-    rawFile.onreadystatechange = function () {
+    rawFile.onreadystatechange = function() {
         if (rawFile.readyState === 4) {
             if (rawFile.status === 200 || rawFile.status == 0) {
                 post = rawFile.responseText;
@@ -45,7 +45,7 @@ function readPostHeader(path) {
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", path, false);
     var post;
-    rawFile.onreadystatechange = function () {
+    rawFile.onreadystatechange = function() {
         if (rawFile.readyState === 4) {
             if (rawFile.status === 200 || rawFile.status == 0) {
                 var allText = rawFile.responseText;

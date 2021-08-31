@@ -3,6 +3,7 @@ layout: post
 title:  "A Practical Guide To Scrum"
 date:   2019-04-08 12:00:00 +0100
 categories: sofware engineering scrum
+permalink: /scrum-guide
 ---
 
 # Introduction: An implementation recipe of an agile methodology

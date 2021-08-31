@@ -3,7 +3,10 @@ layout: post
 title:  "Brutalist Software Development"
 date:   2019-04-01 12:00:00 +0100
 categories: sofware engineering scrum
+permalink: /brut-soft-dev
 ---
+
+> This article is a collection of bad software engineering practices I've collected during the past 10 years I've been in the industry, consolidated into one single parody. Any resemblance to actual people, companies, or events is probably coincidental ;)
 
 ### The art of building raw, disposable, unusable software
 
@@ -93,9 +96,4 @@ __Never look back.__
 
 Many lean startup books will help you create your lean business canvas, or even a concrete roadmap. Brutalist engineering abolishes any practice that potentially aims at a future. To keep a project going for as long as possible, stakeholders need to believe that their vision will take years to be achieved, and any constructive step towards those goals is harmful.
 
-`TODO`
-
 __Never look forward.__
-
-
-> This article is a collection of bad software engineering practices I've collected during the past 10 years I've been in the industry, consolidated into one single parody. Any resemblance to actual people, companies, or events is probably coincidental ;)

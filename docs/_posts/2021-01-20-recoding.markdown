@@ -3,6 +3,61 @@ layout: post
 title:  "Re→Coding"
 date:   2021-01-20 18:00:00 +0100
 categories: startup entrepreneurship education prototyping
+permalink: /recoding
 ---
 
-`TODO`
+
+Recoding was a startup I've created with my good friend Gui Lozano. 
+The idea was to teach basic programming skills to the non-technical people in the IT world (get it? RE(_cruiters_) → CODING).
+Our main target audience were the recruiters, but we also aimed for testers and project managers.
+
+<img src="/img/recoding.png" width="320" height="100">
+
+We partenered with a local company that would allow us to use their office in weekends, when we ran free coding bootcamps for recruiters. We ran four different bootcamps that took place on Saturdays and Sundays, 4 hours per day with a 10 minute break. During that time we hosted hundreds of people from 5 countries. Most sessios were overbooked. We set up a great website with resources and ways to contact/hire us, and a created a slack community. This was our schedule:
+
+<img src="/img/recoding_schedule.png">
+
+I still really like our pitch:
+
+> We are not a standard coding bootcamp. This program is designed by IT recruiters and software developers for IT recruiters and sourcers.
+>
+> We understand the demands and expectations of hiring managers and candidates, the frustration of not fully understanding a badly written job description full of tech acronyms (thus not being able to re-write it properly) and, well, the reputation that IT recruiters got over the past years.
+>
+> __We want to change that.__
+
+After collecting hundreds of survey responses, we used the numbers to try to sell our potential customers on offering the bootcamp for their employees. Our numbers were really fantastic:
+
+<img src="/img/recoding_numbers.png">
+
+And we got many testimonials from the people that joined our free sessions:
+
+```
+"Really good atmosphere, i liked it a lot"
+"I liked the information about technologies, practical part (i could feel like IT girl :D) and overall atmosphere. They were very helpful and patien"
+"I liked the most the practical part (coding exercices)"
+"Good balance on theory and practice, interesting deliver"
+"I really enjoyed my time here and thank you very much for that. I gained the knowledge which I always wanted but I didn't have proper source. Idea of this workshop is great and I'm sure you gonna rock the market :)"
+"You guys are doing great :)"
+"Everything was just great, nothing else to add:) Thank you!"
+"Thanks a lot. It is great initiative"
+"Thank you very much for this workshop, I find it very interesting and useful."
+"Thank you very much! :) You have great teaching skills ;) you were very positive and patient"
+"I've had a really great time, learned a lot and feel like I understand more front-end tools"
+```
+
+I think we managed to create a great balance between a relaxed atmosphere, a learning environment, and a space for people to exchange ideas. I'm really proud of us.
+
+<img src="/img/recoding_atmosphere.jpg">
+
+To end on a good note, I would like to make the learning materials available for download, in case anyone is interested.
+
+- <a href="/img/recoding/presentation.pdf" target="_blank">Presentation</a>
+- <a href="/img/recoding/exercises.html" target="_blank">Exercises</a>
+
+### Why didn't it work out?
+
+I think we failed to put in the effort to sell the idea properly. Or, like Gui put it:
+
+> I could give many reasons why we decided to stop - but the biggest one probably is because we just weren't ready for it.
+
+One of the lessons learned for me was to not balance many things at once, but instead focus on one thing and give it your 100%.

@@ -69,7 +69,7 @@ layout: default
     <div class="social">
         <a href="https://linkedin.com/in/lucas-farris-9aa1a829" target="_blank">
             <img src="../img/link.png" alt="Linkedin"></a>
-        <a href="https://stackoverflow.com/story/lucasfarris" target="_blank">
+        <a href="https://stackoverflow.com/users/1341626/luksfarris" target="_blank">
             <img src="../img/so.png" alt="Stack Overflow Careers Profile"></a>
         <a href="https://github.com/luksfarris" target="_blank">
             <img src="../img/git.png" alt="Github"></a>

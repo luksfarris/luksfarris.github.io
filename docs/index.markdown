@@ -55,12 +55,9 @@ layout: default
     </div>
     <div class="intro">
         <p class="drop-cap">Hello World! My name is <b>Lucas Farris</b>, 
-        I'm a Data Scientist currently based in the EU.
-        I'm interested in Machine Learning and Software Engineering.</p>
-        <p> Since 2019 I've been focusing my professional and academic career in the direction of applying ML to Recommender Systems. I speak English, Spanish, or Portuguese.
-        </p>
+        I'm a Data Scientist based in the EU with ten years of experience in Software Engineering. I have a B.Sc. degree in Computer Science and an M.Sc. in Data Science. I've worked on Machine Learning projects for top F500 companies, like Microsoft, Amazon, and others.</p>
     </div>
-    <h2><a href="https://docs.google.com/document/d/1jikJtS7kDG84SAIxWMDygbBeO0wAlcurdCig0zQHqxE/edit?usp=sharing" target="_blank">Curriculum Link (Google Docs)</a></h2>
+    <h2><a href="https://docs.google.com/document/d/1jikJtS7kDG84SAIxWMDygbBeO0wAlcurdCig0zQHqxE/edit?usp=sharing" target="_blank">Curriculum Vitæ (Google Docs)</a></h2>
 </center>
 
 
@@ -80,6 +77,7 @@ layout: default
     <p>
         <a href="https://www.codewars.com/users/luksfarris" target="_blank">Code Wars Profile</a> |
         <a href="https://scholar.google.com/citations?user=2IBePDwAAAAJ" target="_blank">Google Scholar Profile</a> |
-        <a href="https://deepai.org/profile/lucas-farris" target="_blank">Deep AI Profile</a>
+        <a href="https://deepai.org/profile/lucas-farris" target="_blank">Deep AI Profile</a> |
+        <a href="https://g.dev/luksfarris" target="_blank">Google Dev Profile</a>
     </p>
 </center>

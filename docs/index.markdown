@@ -10,7 +10,7 @@ layout: default
             position:relative;
             padding:20px;
             box-sizing:border-box;
-            margin-bottom: 80px;
+            margin-bottom: 100px;
         }
         div.content:before { 
             content:"";
@@ -24,20 +24,12 @@ layout: default
             bottom:0;
             z-index:-1;
         }
-        .drop-cap::first-letter, .drop-cap>p:first-child::first-letter {
-            font-size: 64pt;
-            line-height: 1;
-            float: left;
-            font-style: normal;
-            font-weight: 800;
-        }
         .intro {
             width: 90%;
             font-size: 16pt;
-            text-align: justify;
-            text-justify: inter-word;
-            font-family: monospace;
+            text-align: left;
             color: #3b4252;
+            margin-bottom: 20px;
         }
         .social {
             margin: 10px;
@@ -54,10 +46,10 @@ layout: default
         <img src="../img/me.png" alt="Profile Picture" width="256" height="256" style="border-radius:128px;">
     </div>
     <div class="intro">
-        <p class="drop-cap">Hello World! My name is <b>Lucas Farris</b>, 
+        <p><i>Hello World!</i> My name is <b>Lucas Farris</b>, 
         I'm a Data Scientist based in the EU with ten years of experience in Software Engineering. I have a B.Sc. degree in Computer Science and an M.Sc. in Data Science. I've worked on Machine Learning projects for top F500 companies, like Microsoft, Amazon, and others.</p>
     </div>
-    <h2><a href="https://docs.google.com/document/d/1jikJtS7kDG84SAIxWMDygbBeO0wAlcurdCig0zQHqxE/edit?usp=sharing" target="_blank">Curriculum Vitæ (Google Docs)</a></h2>
+    <h2><a href="https://docs.google.com/document/d/1jikJtS7kDG84SAIxWMDygbBeO0wAlcurdCig0zQHqxE/edit?usp=sharing" target="_blank">Curriculum Vitae (Google Docs)</a></h2>
 </center>
 
 

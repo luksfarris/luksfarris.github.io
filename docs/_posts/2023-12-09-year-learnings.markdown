@@ -26,6 +26,9 @@ In all of these scenarios, the problem was not that I was not rewarded as I expe
 
 I was telling myself a lie, though: in everything we do, we have to find how we're also doing it for ourselves. We might make it clear from the get-go. When you're a beneficiary of what you do, there's no reason to expect anything in return. And if you can't figure out how you could possibly benefit from something you're about to do, you might be better off not doing it.
 
+As the saying goes:
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">&quot;Chop your own wood, and it will warm you twice&quot;</p>&mdash; Lucas Farris (@luksfarris) <a href="https://twitter.com/luksfarris/status/1744837300733816864?ref_src=twsrc%5Etfw">January 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 #### Exercise 
 

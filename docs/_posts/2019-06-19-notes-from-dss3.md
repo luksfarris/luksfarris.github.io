@@ -2,7 +2,7 @@
 layout: post
 title:  "Notes From DSS3"
 date:   2019-06-19 12:00:00 +0100
-categories: data science machine learning
+categories: data-science machine-learning
 permalink: /dss3
 ---
 

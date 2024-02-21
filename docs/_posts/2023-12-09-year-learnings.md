@@ -2,7 +2,7 @@
 layout: post
 title:  "Lessons From 2023"
 date:   2023-12-09 05:00:00 +0100
-categories: software-engineering burnout mental-health
+categories: software-engineering soft-skills
 permalink: /2023-lessons
 ---
 

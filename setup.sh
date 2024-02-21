@@ -9,7 +9,7 @@ else
 fi
 eval "$(rbenv init -)"
 # 2) make sure that ruby 2.7 is installed and active
-rbenv install -s 2.7.6 # if it exists, just press N
+rbenv install -s 2.7.6
 rbenv shell 2.7.6
 # test it by running the folllowing (you may need to open a new shell)
 ruby --version

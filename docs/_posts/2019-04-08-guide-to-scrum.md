@@ -7,7 +7,7 @@ permalink: /scrum-guide
 ---
 
 
-##### *NB*: I'm a certified Scrum Master (2014) that has been working with Scrum for almost a decade. This content is not affiliated with or sponsored by any organization. The views expressed here are mine. This document was updated in July 2022.
+##### *NB*: I'm a certified Scrum Master (2014) that has been working with Scrum for almost a decade. This content is not affiliated with or sponsored by any organization. The views expressed here are mine. This document was updated many times over the years.
 
 ##### Read time: 20 minutes.
 
@@ -15,23 +15,23 @@ permalink: /scrum-guide
 
 > Fig 1: the term Scrum comes from Rugby players working closely together.
 
-### An implementation recipe of an agile method
+### An implementation recipe of an agile methodology
 
-I often see people on Linkedin sharing materials on the theory of Scrum. Why create more material on this topic? I feel most content lack concrete examples of how a team can implement Scrum, what to watch out for, and how to conduct yourself in a Scrum team. Also, they rarely mention the theory behind it.
+I often see people on Linkedin sharing materials on Agile. Why create more material on this topic? I feel most articles lack concrete examples of how a team can implement Scrum, what to watch out for, and how to conduct yourself in a Scrum team. Also, they rarely mention the theory behind it.
 
 What is the goal of a Software Engineer (or of Software Engineering in general) inside a team? Is it to deliver working software frequently? No. Your goal is to deliver the greatest amount of value to your stakeholder, within time you are given. Teams must never forget this, being value-oriented is key to success. We must quantify, measure, and increase value.
 
-Questions to ask yourself: would you call your project an asset or a liability? Does it generate more value than it consumes? 
+So ask yourself: is my project an asset or a liability? Does it generate more value than it consumes? 
 
 ### 1. Introduction: Pesky Process Problems
 
-Clients don't understand what they want (designers know this). Teams have difficulty estimating projects. Scopes change often. Requirements and communication channels are confusing. Your business has a high turn-over. Client relationships deteriorate over time. Team members lose motivation. Resource get constrained. Projects get cancelled. People get reallocated.
+Clients don't understand what they want (designers know this well). Teams have difficulty estimating projects. Scopes change often. Requirements and communication channels are confusing. Your business has a high turn-over. Client relationships deteriorate over time. Team members lose motivation. Resources get constrained. Projects get cancelled. People get reallocated.
 
-Sound familiar? Scrum won't solve these problems by itself. They are part of any business. Scrum changes the way we work, so that we can address them. It shifts the attention of them team, to have them measure value delivered, instead of features. 
+Sounds familiar? Sorry, but Scrum won't solve these problems by itself. They are part of any business. Scrum changes the way we work, so that we can address them. It shifts the attention of them team, to have them measure value delivered, instead of features. 
 
-Scrum started in 1994 and it combines disciplines like: Incremental Iterative Development, Timeboxing, Servant Leadership, Testriction Theory, Complexity Theory, Lean, and more. 
+Scrum started in 1994 and it combines disciplines like: Incremental Iterative Development, Timeboxing, Servant Leadership, Theory of Constraints, Complexity Theory, Lean, and more. 
 
-While other methodologies are great for stable environments, but that's usually not the case. Take waterfall, for instance:
+Other methodologies are great for stable environments, but that's usually not the case in Software Engineering. Take Waterfall, for instance:
 
 <img src="/img/scrum/waterfall.png">
 > Fig 2: the waterfall process in a nutshell. Each step has deliverables, and the last deliverable is a finished product.
@@ -44,16 +44,16 @@ The leader is not technical, he's not responsible for the success of the product
 
 Drawing from the works of Eliyahu M. Goldratt in *Critical Chain* (1997), the **Theory of Constraints** describes how bottlenecks define the real quality of a product. How interdisciplinary teams working at one thing at a time excel. The team can only be as good as its weakest member.
 
-**Complexity Theory** is about identifying the complexity of the domain one is working on. One can classify their domain by assessing aspects like order vs chaos, stability vs instability, and predictability vs unpredictability. There are four domains: Simple, Complicated, Complex, and Chaotic. Scrum is optimal in the empirical, complex domain. It's about adaptability and agility. Scrum defines time and scope, not which features a team delivers.
+**Complexity Theory** is about identifying the complexity of the domain one is working on. One can classify their domain by assessing aspects like: order vs chaos, stability vs instability, and predictability vs unpredictability. There are four domains: Simple, Complicated, Complex, and Chaotic. Scrum is optimal in the empirical, complex domain. It's about adaptability and agility. Scrum defines time and scope, not which features a team delivers.
 
-**Lean** is about continuous improvement and throwing out wasteful aspects of a process. One could say it's even about throwing away the good ideas. It’s said that users ignore 64% of the features developed. Keep that in mind.
+**Lean** is about continuous improvement and throwing out wasteful aspects of a process. One could say it's even about throwing away the good ideas. Users ignore 64% of the features developed ([See XP 2002](https://martinfowler.com/articles/xp2002.html)). Keep that in mind.
 
 
 <img src="/img/scrum/pillars.png">
 
-> Fig 3: the 5 values of Scrum are: Courage, Focus, Commitment, Respect, and Openness. The values are in the middle to make a point. The principles are the ones from the Agile Manifesto (link in the end). The roles are the Dev team, the Product Owner, and the Scrum Master. The artifacts are the product backlog, the product increments, and the sprint backlog. The ceremonies are the planning, the daily stand-up, the review, and the retrospective. 
+> Fig 3: the 5 values of Scrum are: Courage, Focus, Commitment, Respect, and Openness. The values are in the middle to make a point. The principles are the ones from the [Agile Manifesto](https://agilemanifesto.org/principles.html). The roles are the Dev team, the Product Owner, and the Scrum Master. The artifacts are the product backlog, the product increments, and the sprint backlog. The ceremonies are the planning, the daily stand-up, the review, and the retrospective. 
 
-I see these values as very practical things, and very close to the daily worries of Software Engineers. Take Courage, for instance: it takes courage to say *no* to colleagues with ad-hoc requests when you're busy. Focus is that constant reminder to work in one thing at a time. Commitment to me is about delivering what you agreed to, even if it requires more work than anticipated. Respect in my experience is not working around others, and giving them the time they need to deliver the best solution they can. Openness is letting your team know when things are not going as expected, it must trump our egos.
+I see these values as very practical things, and very close to the daily worries of Software Engineers. Take Courage, for instance: it takes courage to say *no* to colleagues with ad-hoc requests when you're busy. Focus is that constant reminder to work in one thing at a time (or the anxiety of having too much on your plate). Commitment to me is about delivering what you agreed to, even if it requires more work than anticipated. Respect in my experience is not working around others, and giving them the time they need to deliver the best solution they can. Openness is letting your team know when things are not going as expected, it must trump our egos.
 
 ### 2. Roles
 
@@ -84,10 +84,10 @@ The team should have access to its historic evidence of velocity. This must help
 
 
 | Sprint # | Team Size | Points Committed | Points Delivered |
-| ---- | ---- | ---- | ---- |
-| Sprint 1 | 7 People  | 32 Story Points | 32 Story Points  |
-| Sprint 2 | 7 People  | 35 Story Points | 33 Story Points  |
-| Sprint 3 | 8 People  | 38 Story Points | 36 Story Points  |
+| -------- | --------- | ---------------- | ---------------- |
+| Sprint 1 | 7 People  | 32 Story Points  | 32 Story Points  |
+| Sprint 2 | 7 People  | 35 Story Points  | 33 Story Points  |
+| Sprint 3 | 8 People  | 38 Story Points  | 36 Story Points  |
 
 
 #### 3.2 Daily Meeting
@@ -277,7 +277,7 @@ I can't remember if I heard this discussion in the [Soft Skills Podcast](softski
 1. Not looking back when estimating tasks.
 1. Not taking action on problems raised at the retrospective.
 
-#### What do you mean by Vision?
+#### 6.2 What do you mean by Vision?
 
 We can think of vision on three distinct levels: the Product Vision, the Project Vision, and the Process Vision.
 
@@ -288,15 +288,15 @@ We can think of vision on three distinct levels: the Product Vision, the Project
 - **Process Vision**: define and audit the process aspects, in terms of governance, PMO, and certifications. Document the setup of the process, and how it changes. 
 
 
-#### Business value versus technical improvement
+#### 6.3 Business value versus technical improvement
 
 Business value refers to new features and things that add value to your client's business. Bug fixes and technical improvements don't add value to the product, but they are expected to happen. I've worked on teams that always left some room for these more technical items (i.e., one day of the week per team member).
 
-#### Issue Types: Task, Story, Feature, Bug, Change Request, etc.
+#### 6.4 Issue Types: Task, Story, Feature, Bug, Change Request, etc.
 
 I find that each team has its way to call the issues they work on. Also, each tool has its naming conventions. I like to work in terms of Epics subdivided into Stories, and bugs. It doesn't matter how you call your issues, as long as they are small enough to fit in a sprint (remember granularity), can be estimated by the team, and can be documented. Remember the definitions of Ready, and Done.
 
-#### Estimating Bugs
+#### 6.5 Estimating Bugs
 
 I've been a part of debates about whether bugs should be estimated. I don't like making bugs a part of the sprint scope, because they add no value to the product. Keep a separate backlog for bugs. Model and rank bugs based on difficulty versus benefits. Dedicate a couple of days of every sprint to address bugs. Here is a bug template that works:
 
@@ -310,15 +310,15 @@ I've been a part of debates about whether bugs should be estimated. I don't like
 
 I've had the opportunity to work with many great QA professionals. It's very valuable it is to have good QA people on your team. Don't underestimate their value.
 
-#### Should incomplete stories be re-estimated?
+#### 6.6 Should incomplete stories be re-estimated?
 
 This is a common question among teams. Given an estimated story that we didn't manage to finish in the sprint, should we re-estimate the effort for the next sprint? The answer is **yes**. Having the story re-estimated will allow you to better prepare the sprint scope and goals.  
 
-#### Cross-functional Teams
+#### 6.7 Cross-functional Teams
 
 This concept is tightly related to self-management. The only way the team can be responsible for designing, planning, developing, testing, and releasing is by having all the necessary skills within the team. Companies often think that a Scrum team is only comprised of Software Engineers. This is a misconception. Scrum Teams may contain UI designers, UX designers, Architects, QA, DevOps, and so on. Remember that the whole team must share the same macro goals.
 
-#### Self-management versus Project Managers and Tech Leads
+#### 6.8 Self-management versus Project Managers and Tech Leads
 
 When success is measured by the team's progress, as opposed to individual achievement, self-organization comes naturally. Stimulate macro team goals and micro personal goals. The work of the team can only be judged by the PO, only at the review, and it's done based on stakeholder value. Macro goals refer to project milestones, business objectives, and sprint goals. Every other goal and decision that's within a sprint is handled 100% by the team.
 
@@ -327,7 +327,7 @@ When success is measured by the team's progress, as opposed to individual achiev
 Adopting Servant Leadership deprecates the role of the PM. Scrum also doesn't contain the role of a tech lead. A self-organizing team doesn't need technical leadership. They are equipped (and the SM makes sure of that) with all the skills they need to make their decisions.
 
 
-### Further Reading
+### 7. Further Reading
 
 - Servant Leadership ([link](https://www.greenleaf.org/what-is-servant-leadership/))
 - Critical Chain ([link](https://en.wikipedia.org/wiki/Critical_Chain_(novel)))
@@ -340,3 +340,80 @@ Adopting Servant Leadership deprecates the role of the PM. Scrum also doesn't co
 - eXtreme Programming ([link](http://www.extremeprogramming.org/))
 - Feature-Driven Development (FDD) ([link](https://en.wikipedia.org/wiki/Feature-driven_development))
 - Behavior-Driven Development (BDD) ([link](https://en.wikipedia.org/wiki/Behavior-driven_development))
+
+
+### 8. Team Health Checks
+
+The following are some forms that I ran in the past, especially nearing the end of larger projects. I recommend running forms anonymously. I also recommend adding a free-form question at the end of each form for open feedback (on the form, the process, the team, the company, ...).
+
+The answers are of these are supposed to be a 5-point likert scale (1 = Disagree, 2 = Somewhat disagree, 3 = Doubt, 4 = Somewhat agree, 5 = Agree). The goal here is to report the median of each answer, and analyse where the team is failing to meet the desired standard. 
+
+The team should discuss concrete improvements on how the process can be improved. The outcome would be a list of action points and owners. Alternatively, the facilitator would pick the points where the team is struggling the most and invite open discussion.
+
+
+#### 8.1 Agile Temperature
+
+This is an 8-question form for teams of all levels. Every question has a title, context, and a description of what a perfect environment would look like.
+
+> *Note: Not sure who originally translated this from a foreign language, but I revisited the translation recently, and it may not be exactly the same content the original source.*
+
+
+1) **Meeting agreements** (Alignment, Transparency, and Respect)
+   
+   *People like to work in an atmosphere of trust. To develop trust inside the team we need to meet agreements and keep small promises. If it is not easy to keep promises and agreements, discuss reasons and options to adapt before abandoning them.*
+   
+   (max score: Team accepts only rules that are agreed by whole team, and everyone feels involved).
+
+2) **Following Common Goals**  (Synchronization, Clarity, Client Relationship, Focus)
+   
+   *Being focused on common business goal, increase energy, collaboration and involvement of team members. People focused on result have common vision, and start seeing additional opportunities.*
+   
+   (max score: All team members clearly understand and follow their goals)
+3) **Expression Of Gratitude** (Openness, Positive thinking, Gratitude Recognition)
+   
+   *People appreciate feeling recognized by other people, for their achievements and contributions. Expression of sincere recognition creates an environment where people respect each other.*
+   
+   (max score: On a regular basis, people say thank you and appreciate achievements of each other depending on the contribution of each team member)
+4) **Using Shared Interestes** (Alignment, Team Collaboration, Win-Win Awareness) 
+   
+   *Teamwork is more important than personal goals when a team has a similar understanding and common vision; they realize the benefits of working collaboratively rather than competitively. Interests are expressions of values and visions.*
+   
+   (max score: Team members know each other's goals, their intersection and how to use them when resolving conflicts)
+
+5) **Correct Engagement** (Cross-functional, Minimize Bus factors, Involvement, Engagement, Commitment, Decision making, Team work)
+   *People need to feel involved in common work. That happens when they exchange information, delegate tasks, express and take into account different points of view. Typical example of insufficient involvement is making global impact decisions without engaging all team members.*
+   
+   (max score: Team members exchange information and make decisions. All team members are involved in realization)
+
+6) **Expression of realistic optimism** (Comfort zone, Challenge, Unlock potential, Positive thinking, Courage)
+   *It is important to believe in a positive future. Optimism is enhanced through an understanding of benefits and correlation of some difficulties. It needs an open and in-time discussion of problems.  An environment of support for each other, and positive thinking, is also important.*
+   
+   (max score: All team members understand goals and believe in their achievement. They maintain an optimistic mood even when difficulties appear)
+
+7) **Resistance of blames and complaints** (Shared responsibility, Healthy Communication, Warm heart & Cold Mind, Focus on result)
+   *The state of drama costs too much energy. Better to be focused on solving problems instead of searching for the responsible person for some unfortunate circumstance. If you don’t join “the club” of victims and aggressors, team culture will be more healthy.*
+   
+   (max score: It is not Ok to attack or defend. Team members avoid such ways of not taking responsibility, and help each other by giving feedback. People are mature enough to accept feedback)
+
+8) **Clarification of functions, roles, accountability and authority** (Leadership, Expectations, Transparency, Flat structure, Responsibility)
+   *Success is measured by meeting expectations. Clear roles, functions, accountability, and power for their realization, helps the team work more successfully.*
+
+   (max score: Expectations from roles in the team are clear and agreed. Areas of responsibility are distributed and provided with appropriate autonomy and authority)
+
+
+#### 8.2 Agile Principles Check
+
+This is a form with 12 short questions, meant to be open/broad, for a more mature (mid-senior) team.
+
+1. **Produce value early** - Our highest priority is to satisfy the customer through early and continuous delivery of valuable software
+2. **Welcome change** - Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage
+3. **Iterative delivery** - Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+4. **Daily business collaboration** - Business people and developers must work together daily throughout the project.
+5. **Trusted, motivated team** - Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+6. **Face to face communication** - The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+7. **Working software** - Working software is the primary measure of progress.
+8. **Sustainable pace** - Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+9. **Technical excellence** - Continuous attention to technical excellence and good design enhances agility. 
+10. **Focus on simplicity** - Simplicity - the art of maximizing the amount of work not done - is essential
+11. **Self-organizing team** - The best architectures, requirements, and designs emerge from self-organizing teams.
+12. **Reflect & adjust** - At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.

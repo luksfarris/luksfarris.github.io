@@ -6,6 +6,7 @@ if [[ $(rbenv commands) ]]; then
     echo "rbenv already installed"
 else
     curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
+    export PATH="$HOME/.rbenv/bin:$PATH"
 fi
 eval "$(rbenv init -)"
 # 2) make sure that ruby 2.7 is installed and active

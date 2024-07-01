@@ -31,6 +31,27 @@ github_username: luksfarris
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-spaceship
+
+jekyll-spaceship:
+   mermaid-processor:
+    config:
+      theme: 'base'
+      themeVariables:
+        primaryTextColor: '#fff'
+        secondaryTextColor: '#fff'
+        tertiaryTextColor: '#fff'
+        primaryBorderColor: '#fff'
+        secondaryBorderColor: '#fff'
+        tertiaryBorderColor: '#fff'
+        lineColor: '#fff'
+        background: '#0b58a8'
+        primaryColor: '#0b58a8'
+        secondaryColor: '#0b58a8'
+        tertiaryColor: '#0b58a8'
+        mainBkg: '#0b58a8'
+        fontFamily: 'Verdana'
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

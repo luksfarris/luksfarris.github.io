@@ -9,17 +9,16 @@ list_title: ' '
 
 ### July 2024
 
-[The Future Of Search](./search.pdf)
+<a href="./search.pdf" target="_blank">The Future Of Search</a>
+
+### August 2022
+
+<a href="https://youtu.be/_6M7C49Q9CU?si=Tx9fGn6WE_L0t7aI" target="_blank">Optimized Recommender Systems with Deep Reinforcement Learning</a>
 
 ### May 2018
 
-[Classifier Algorithms And Swift implementations](./classifiers.pdf)
+<a href="./classifiers.pdf" target="_blank">Classifier Algorithms And Swift implementations</a>
 
 ### March 2018
 
-[Augmented Reality In Review](./ar.pdf)
-
-
-## Notes On Giving Good Talks
-
-- [how to give a scientific talk by Michael Ernst](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html)
+<a href="./ar.pdf" target="_blank">Augmented Reality In Review</a>

@@ -6,7 +6,7 @@ categories: software-engineering soft-skills
 permalink: /2023-lessons
 ---
 
-It feels like 2023 was a tough year for many. Speaking to colleagues, people feel like they never recovered from the 2019 pandemic. This year had a later spring, a drier summer, a shorter autumn, and we're looking at a colder winter. For me personally, I believe I learned a few powerful lessons that are worth saving for future self.
+It feels like 2023 was a tough year for many. Speaking to colleagues, people feel like they never recovered from the 2020 pandemic. This year had a later spring, a drier summer, a shorter autumn, and we're looking at a colder winter. For me personally, I believe I learned a few powerful lessons that are worth saving for future self.
 
 I took the time to transform each section into a CBT-style (Cognitive-Behavioral-Therapy) exercice.
 

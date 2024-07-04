@@ -11,7 +11,7 @@ permalink: /scrum-guide
 
 ##### Read time: 20 minutes.
 
-<img src="/img/scrum/rugby.jpeg">
+<img src="/assets/img/scrum/rugby.jpeg">
 
 > Fig 1: the term Scrum comes from Rugby players working closely together.
 
@@ -33,7 +33,7 @@ Scrum started in 1994 and it combines disciplines like: Incremental Iterative De
 
 Other methodologies are great for stable environments, but that's usually not the case in Software Engineering. Take Waterfall, for instance:
 
-<img src="/img/scrum/waterfall.png">
+<img src="/assets/img/scrum/waterfall.png">
 > Fig 2: the waterfall process in a nutshell. Each step has deliverables, and the last deliverable is a finished product.
 
 Scrum bets on *incremental* development to deliver *value* to the stakeholder at every *iteration*.
@@ -49,7 +49,7 @@ Drawing from the works of Eliyahu M. Goldratt in *Critical Chain* (1997), the **
 **Lean** is about continuous improvement and throwing out wasteful aspects of a process. One could say it's even about throwing away the good ideas. Users ignore 64% of the features developed ([See XP 2002](https://martinfowler.com/articles/xp2002.html)). Keep that in mind.
 
 
-<img src="/img/scrum/pillars.png">
+<img src="/assets/img/scrum/pillars.png">
 
 > Fig 3: the 5 values of Scrum are: Courage, Focus, Commitment, Respect, and Openness. The values are in the middle to make a point. The principles are the ones from the [Agile Manifesto](https://agilemanifesto.org/principles.html). The roles are the Dev team, the Product Owner, and the Scrum Master. The artifacts are the product backlog, the product increments, and the sprint backlog. The ceremonies are the planning, the daily stand-up, the review, and the retrospective. 
 

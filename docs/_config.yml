@@ -35,6 +35,9 @@ plugins:
   - jekyll-feed
   - jekyll-spaceship
 
+sass:
+    sass_dir: _sass
+
 jekyll-spaceship:
    mermaid-processor:
     config:

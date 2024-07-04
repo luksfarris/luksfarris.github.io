@@ -12,7 +12,7 @@ I took the time to transform each section into a CBT-style (Cognitive-Behavioral
 
 # I. Be a stakeholder in everything you do
 
-<img src="/img/2023/dothis.png">
+<img src="/assets/img/2023/dothis.png">
 
 #### What happened
 
@@ -44,7 +44,7 @@ List the top 3 things keeping you busy, and reflect on how you are impacted by t
 
 # II. Broadcast your progress, channel your problems
 
-<img src="/img/2023/celebrate.png">
+<img src="/assets/img/2023/celebrate.png">
 
 One of my pet peeves in the software industry is when teams don’t give enough attention to bugs. This is particularly annoying to me because I try really hard to address all the problems, even if I say I won’t fix them. I usually find little success reporting things in service desks, slack/discord channels, team meetings, and so on.
 
@@ -64,7 +64,7 @@ Again, we can transform this into a personal exercise. List the top 3 things you
 
 # III. We have more ownership of our problems than we think
 
-<img src="/img/2023/eat.png">
+<img src="/assets/img/2023/eat.png">
 
 I recently learned about the term *problem drinker*, which I found funny because I thought he was referring to drinking your problems away (it means something entirely different though). The fact is, I've been trying to avoid all sorts of bad behaviors, often successfully, but I was doing it the wrong way.
 

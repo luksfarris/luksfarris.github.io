@@ -8,13 +8,13 @@ permalink: /slicing-data-science
 
 ## Conway's Law Strikes Again
 
-I was once involved in a project that was cancelled midway. The organization I was working with had big communication problems between departments, and one particular division of the company was creating problems, preventing us from accessing the data we needed to do our work.
+I was once involved in a project that got cancelled midway. The organization I was working with had big communication problems between departments. One division of the company in particular was creating problems. This prevented us from accessing the data we needed to do our work.
 
-Because we never had access to the data we needed, we had to content ourselves with shipping dummy models trained on dummy data, documentations and presentations. In one of our internal meetings, someone mentioned a Product research methodology called "Slicing" which I wasn't familiar with.
+We never had access to the data we needed to do the work we had planned. So we had to content ourselves with shipping dummy models trained on dummy data. That, and loads of documentation and presentations. In one of our meetings, someone mentioned a Product research practice called "Slicing". I was not familiar with it.
 
 ## What is Slicing?
 
-If you're familiar with the usual DS methodologies like [CRISP-DM](http://cs.unibo.it/~danilo.montesi/CBD/Beatriz/10.1.1.198.5133.pdf) or [TDSP](https://learn.microsoft.com/en-us/azure/architecture/data-science-process/overview), you'll know there's a lot of prep work to be done before you can start the "actual" work. For the seasoned SWE, they look a lot like waterfall.
+If you're familiar with the usual DS methodologies like [CRISP-DM](http://cs.unibo.it/~danilo.montesi/CBD/Beatriz/10.1.1.198.5133.pdf) or [TDSP](https://learn.microsoft.com/en-us/azure/architecture/data-science-process/overview), you'll know there's a lot of prep work to do. Even before you can start the "actual" work. For the seasoned SWE, they look a lot like waterfall.
 
 ```mermaid!
 graph LR;
@@ -38,34 +38,49 @@ end
 
 *<center>Diagram 1: CRISP-DM vs Waterfall. In theory after evaluation you're supposed to go back to Business Understanding. In practice that rarely happens. </center>*
 
-The Data Science Process Alliance describes a type of Slicing process, but it is fundamentally flawed. Hear me out. Let's look at their approach:
+The *Data Science Process Alliance™* describes a type of Slicing process, but it is fundamentally flawed. Hear me out. Let's look at their approach:
 
-<img src="./img/slicing/vertical-slicing.gif">
+<img src="./assets/img/slicing/vertical-slicing.gif">
 
 
 *<center>Figure 1: <a href="https://www.datascience-pm.com/crisp-dm-2/" target="_blank">CRISP-DM Vertical Slicing</a>. What happens with all the roadblocks and internal frictions that will inevitably happen while you work at the first vertical (Voluntary Churn)? What if you're blocked for half the duration of the project, what will you deliver/work on?</center>*
 
-It is true that these methodologies have clear project outlines though. Each step is clear, and the documented output of each step is the output of the next. But sometimes, by the time you get to the evaluation, weeks have gone by and the deadline is looming.
+It is true that these methodologies have clear project outlines though. Each step is clear, and the documented output of each step is the input to the next. But sometimes, by the time you get to the evaluation, weeks have gone by and the deadline is looming.
 
-That is, if you even get to the evaluation because many scientists will only get to modelling once the data is perfect. The problem is that for many companies that are on a more premature stage of their digital transformation (DX) journey, the data is not gonna be ready, and it will not be any time soon. Should that hinder your ability to deliver value to their business? Of course not.
+That is if you even get to the evaluation, because many practitioners will only get to modelling once the data is perfect. The problem is that many companies that are on a more premature stage of their digital transformation (DX) journey. The data is **not** ready, and it will not be any time soon. 
 
-A colleague of mine recently shared the famous quote "Rome wasn't built in a day, but they were laying bricks every hour". Following the metaphor, the mature process of a Data team would be able to start laying bricks from day one.
+Should that hinder your ability to deliver value to their business? I say no.
+
+A colleague of mine recently shared the famous quote "Rome wasn't built in a day, but they were laying bricks every hour". Following the metaphor, the mature process of a Data Team would be able to start laying bricks from day one.
 
 ### Slicing 101
 
-According to Nate Bauer [[1]](#references) (emphasis added for context):
+According to Nate Bauer [[1]](#references):
 
-> Slicing is a methodology that streamlines a UX designer’s efforts into **a single deliverable** and facilitates a lean and agile environment while **effectively communicating** with all roles within a product team.
+{% include admonition.html 
+type="Quote" 
+body="Slicing is a methodology that streamlines a UX designer’s efforts into <b>a single deliverable</b> and facilitates a lean and agile environment while <b>effectively communicating</b> with all roles within a product team." 
+%}
 
 Is it just a glorified Agile methodology with a design twist? Not quite. There are key aspects of methodologies like Scrum that don't fit a regular DS workflow (or design for that matter):
 
-- Time Boxing: one of the foundation principles of agile methodologies is packing up tasks in a limited time frame. This rarely works for data science though, since insights uncovered while investigating the data can spin a project on its head. You may go in a project looking to predict churn, and end up with a ad recommendation strategy.
-- Complex Domain: Scrum expects developers to be in the empirical world, which is a lot more predictable than what we would call the Chaotic project domain. I believe most DS projects fall into the Chaotic domain.
-- Effort Estimation: Estimating data work is extremely hard, and often imprecise. There are so many unknowns when dealing with a dataset, often even the very people who created the data aren't aware of its limitations and caveats.  
+- **Time Boxing**: one of the foundation principles of agile methodologies is packing up tasks in a limited time frame. This rarely works for data science though, since insights uncovered while investigating the data can spin a project on its head. You may go in a project looking to predict churn, and end up with a ad recommendation strategy.
+- **Complex Domain**: Scrum expects developers to be in the empirical world, which is a lot more predictable than what we would call the Chaotic project domain. I believe most DS projects fall into the Chaotic domain.
+- **Effort Estimation**: Estimating data work is extremely hard, and often imprecise. There are so many unknowns when dealing with a dataset, often even the very people who created the data aren't aware of its limitations and caveats.  
+
+
+{% include admonition.html 
+type="Info" 
+body="This is not to completely dismiss Agile practices. <a href='./scrum-guide' target='_blank'>I have written extensively about it</a>, and I'm a huge fan (and certified Scrum Master)." 
+%}
 
 So if Design teams also share these same problems, how does Slicing addresses them? Here's Nate again [[1]](#references):
 
-> Slicing is a methodology that involves **breaking down design work** to align with an agile workflow. This approach efficiently addresses the communication challenges mentioned earlier while providing clear design and necessary documentation. It enables teams to **measure** the amount of effort required for each sprint and **prioritize** which components of an application should be developed first.
+{% include admonition.html 
+type="Quote" 
+body="Slicing is a methodology that involves <b>breaking down design work</b> to align with an agile workflow. This approach efficiently addresses the communication challenges mentioned earlier while providing clear design and necessary documentation. It enables teams to <b>measure</b> the amount of effort required for each sprint and <b>prioritize</b> which components of an application should be developed first." 
+%}
+
 
 To summarize, we need to work on "small, single, measurable, well communicated deliverables. Slicing starts with a **complete** (think end-to-end) design of the system (called a Slice) and in each iteration (a new Slice) the changes are clearly communicated using a color coding system (existing feature, new, in review, and removed). This *single deliverable* is what is so critical, and missing from traditional methodologies.
 
@@ -132,7 +147,11 @@ And there are so many more things that can completely stall a data project, each
 
 The more innovative your project is, the more a company's structure will resist against it being built. Remember Conway's law [[2]](#references):
 
-> Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations.
+
+{% include admonition.html 
+type="Quote" 
+body="Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations." 
+%}
 
 There's also another very powerful aspect of this that unfortunately is not the case for Design. The first Slice of each type of project is reusable. The ETL code, the DBT project, the model, the dashboard, all of these can be reused to build momentum on other projects too, as long as the tech stack is the same. They can also lay the groundwork to deal with the four V's of Big Data (Volume, Velocity, Variety, Veracity). This was the base of one of Saltz's arguments against CRISP-DM [[3]](#references).
 

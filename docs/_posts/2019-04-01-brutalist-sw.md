@@ -18,7 +18,7 @@ These methodologies may suggest whether programmers will work in teams, in pairs
 
 I like the analogy of construction. As the son of a construction engineer, I'm only too familiar with the problems that may arise between architects, engineers, and clients. Methodologies and processes come in place to prevent these in a Software Engineering environment.
 
-<img src="/img/brut/brut1.jpeg">
+<img src="/assets/img/brut/brut1.jpeg">
 
 > Fig 1: Brutalist Architecture: simplistic, bare, and short-living.
 
@@ -34,7 +34,7 @@ Find a team that is affordable to you, preferably one with a lot of experience o
 
 Pick a couple of hype technologies from Gartner's _Peak Of Inflated Technologies_, and figure out which make more sense to your business. Create a business plan that has no foundation on technical feasibility. Communicate it to your recently built team.
 
-<img src="/img/brut/brut2.png">
+<img src="/assets/img/brut/brut2.png">
 
 > Fig 2: The zone is the part of the curve where hype is growing or high.
 
@@ -46,7 +46,7 @@ Nobody in the team has experience with the technologies? - No problem, just don'
 
 In brutalist engineering they will have a key role. Select someone that has no experience with the underlying technologies, they need to be making the wrong decisions, to keep the project going. Someone without any leadership skills, so the team members quit often and more time will be added. If they have no idea how to extract requirements, it's a plus  -  the more meetings, the merrier.
 
-<img src="/img/brut/brut3.png">
+<img src="/assets/img/brut/brut3.png">
 
 > Fig 3: Information flow in a brutalist team.
 
@@ -62,7 +62,7 @@ __Enforce bad programming practices.__
 
 Work in brutalism needs to be planned, but not carefully. There needs to be a constant delivery of defective features. Create a backlog of the most useless features you can think of, but make sure they sound very fancy and savvy.
 
-<img src="/img/brut/brut4.png">
+<img src="/assets/img/brut/brut4.png">
 
 > Fig 4: Brutalist software features are redacted to be unintelligible, and unusable.
 
@@ -76,7 +76,7 @@ __Redact tasks shortly and imperatively.__
 
 Some other methodologies like XP insist on the utility of unit tests. They preach that TDD is the best way to develop software. Many respected authors, such as the famous Robert "Uncle Bob" Martin also advocate for test-driven-development. It generates stable code, and saves time and money. It's obviously not a good practice to have.
 
-<img src="/img/brut/brut5.png">
+<img src="/assets/img/brut/brut5.png">
 
 > Fig 5: This no-tests policy is commonly called Forget About Testing, or FAT, among brutalists.
 

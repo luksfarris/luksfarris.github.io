@@ -1,0 +1,53 @@
+---
+---
+
+@import "minima";
+@import "admonition";
+
+
+div.content {
+    width: 100%;
+    height: 200px;
+    position:relative;
+    padding:20px;
+    box-sizing:border-box;
+    margin-bottom: 100px;
+}
+div.content:before { 
+    content:"";
+    position:absolute;
+    background: #d8dee9;
+    border-radius: 15px;
+    transform: skew(-5deg);
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:-1;
+}
+.intro {
+    width: 90%;
+    font-size: 16pt;
+    text-align: left;
+    color: #3b4252;
+    margin-bottom: 20px;
+}
+.social {
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+    width: 50%;
+}
+.social img {
+    width: 64px;
+    heigth: 64px;
+}
+#menu ul{
+    list-style: none;
+}
+#menu li{
+   display: inline;
+}
+#menu li:not(:last-child):after {
+    content: " | ";
+}

@@ -22,3 +22,12 @@ list_title: ' '
 ### March 2018
 
 <a href="./ar.pdf" target="_blank">Augmented Reality In Review</a>
+
+
+### September 2015
+
+**In Portuguese**: Protein Contact Map Prediction 
+
+- <a href="./protein_proposal.pdf" target="_blank">Proposal</a>
+- <a href="./protein_presentation.pdf" target="_blank">Presentation</a>
+

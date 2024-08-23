@@ -2,7 +2,7 @@
 layout: post
 title:  "A Practical Guide To Scrum"
 date:   2019-04-08 12:00:00 +0100
-categories: sofware engineering scrum
+categories: software engineering scrum
 permalink: /scrum-guide
 ---
 

@@ -1,0 +1,30 @@
+---
+layout: page
+permalink: /categories/
+# Hide the title so it won't show up in the nav
+# title: Categories
+---
+
+<h2> Categories </h2>
+
+<div id="archives">
+  {% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+
+    <h3 class="category-head"><code class="language-plaintext highlighter-rouge">{{ category_name }}</code></h3>
+    <a name="{{ category_name | slugize }}"></a>
+    <ul>
+    {% for post in site.categories[category_name] %}
+    <li>
+    <article class="archive-item">
+      <p><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a> - {{post.date | date: "%b %Y"}}</p>
+    </article>
+  </li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>

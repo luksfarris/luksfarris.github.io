@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Brag Wall
+title: Testimonials
 permalink: /references/
 ---
 
-# Brag Wall
+# {{ page.title }}
 
 This is a space where I collect recommendations and references I received.
 
-## Kin+Carta (2024-)
+## Valtech (formerly Kin+Carta) (2024-)
 
 
 <a href="./kc_feedback.png" target="_blank">Lead's Feedback</a> 

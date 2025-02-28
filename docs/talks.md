@@ -5,7 +5,7 @@ permalink: /talks/
 list_title: ' '
 ---
 
-# Talks
+# {{ page.title }}
 
 ### July 2024
 

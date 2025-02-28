@@ -2,7 +2,7 @@
 layout: post
 title:  "(Parody) Brutalist Software Development"
 date:   2019-04-01 12:00:00 +0100
-categories: software engineering scrum
+categories: software-engineering methodology
 permalink: /brut-soft-dev
 ---
 

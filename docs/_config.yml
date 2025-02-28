@@ -35,6 +35,9 @@ plugins:
   - jekyll-feed
   - jekyll-spaceship
 
+# header_pages:
+#   - posts.md
+
 sass:
     sass_dir: _sass
 

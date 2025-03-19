@@ -25,20 +25,20 @@ type="Quote"
 body="Nothing Missing, Nothing Broken, Nothing Out Of Place." 
 %}
 
-I Google'd the source of this, but couldn't find it easily; it's likely tp be from some abrahamic religious text. 
+I Googled the source of this, but couldn't find it easily; it's likely to be from some abrahamic religious text. 
 I think it's a good principle for a family home, to be sure; but also it just sounded really good for software engineering.
 
 ### Nothing Missing
 
 A very common thing that happens to me in software projects is to find myself using the wrong technology to solve a problem.
-- Trying to use a no-sql database for a queuing system? 
+- Trying to use a no-SQL database for a queuing system? 
 - Trying to use a relational database to stream data? 
 - Trying to use a distributed file system as a data storage that needs to be queried?
 
 As we get more senior we are more likely to have to *rescue* projects. We land on these projects where bad decisions were made
 a couple years ago, and now it became unsustainable. Or, as I like to say it, we have to replace the engine while the train is running. 
 
-When is the right time to raise your hand and start doing the right thing? When are we allowed to trump an organizations 
+When is the right time to raise your hand and start doing the right thing? When are we allowed to trump an organization's 
 toxic patterns and create a new, healthy one? The time is now, as soon as you realize it. Before the project, during the project,
 or after the project. The compound benefits of using the right tools will far outweigh the cost of the change.
 
@@ -52,7 +52,7 @@ give each other confidence to do hard things. Even more importantly, mature team
 only accepted, but encouraged.
 
 But deadlines are a trickier business, especially if you're not the one who owns the project. A good negotiator will be able to postpone
-the deadline in order for the team to do the right thing, but I'm sure you're familiar with the bitter taste of a postponed deadline.
+the deadline for the team to do the right thing, but I'm sure you're familiar with the bitter taste of a postponed deadline.
 It's a hard pill to swallow, but you just have to remember this decision will pay off. It always pays off.
 
 ### Nothing Out Of Place
@@ -61,10 +61,10 @@ When I think about software out of place I think of code that was written but is
 code in a repository *just in case*, especially it this particular code was especially hard to implement; or is an elegant solution to a problem
 we don't have anymore.
 
-What is it that makes us keep these bits of code? I think it's pride. Pride of the code we wrote, and regret that ultimately there's no use for it.
+What is it, that makes us keep these bits of code? I think it's pride. Pride of the code we wrote and regret that ultimately there's no use for it.
 There's no remedy: push it to a gist or a personal repository, remove it from your project, and move on. Over time it will lose it's importance to you.
 
 
 <br><br><br>
  
-*this has been a shorter essay, I'm trying to force myself to write more often. I expect to write a new article a month or so.*
+*this has been a shorter essay, I'm trying to force myself to write more often. I expect to write a new article each month.*

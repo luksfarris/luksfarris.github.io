@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Testimonials
+title: References
 permalink: /references/
 ---
 
 # {{ page.title }}
 
-This is a space where I collect recommendations and references I received.
+This is a space where I collect recommendations and feedback I received.
 
 ## Valtech (formerly Kin+Carta) (2024-)
 

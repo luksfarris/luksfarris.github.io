@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Blog Posts
+title: Essays
 permalink: /posts/
 list_title: ' '
 ---

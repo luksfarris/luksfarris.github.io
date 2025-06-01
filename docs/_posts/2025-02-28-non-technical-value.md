@@ -2,7 +2,7 @@
 layout: post
 title:  "9 Ways To Deliver Value Without Code"
 date:   2025-02-22 11:00:00 +0100
-categories: management software-engineering
+categories: management
 permalink: /non-technical-value
 ---
 

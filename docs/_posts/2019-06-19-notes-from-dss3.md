@@ -2,7 +2,7 @@
 layout: post
 title:  "Notes From DSS3"
 date:   2019-06-19 12:00:00 +0100
-categories: data-science machine-learning
+categories: data-science
 permalink: /dss3
 ---
 
@@ -59,7 +59,7 @@ Told a story about how his company predicts machinery failures. He discussed his
 > Operating Big Data For IoT Infrastructure<br>
 Divesh Kumar - Equinix
 
-Talked about the necessity of monitoring petabytes of data that is transfered through their network. The necessities of providing 99% availability, and latency under 30 seconds. Mentioned it was important that architectures are API-first, use micro-services and lambdas, are scalable and secure, that data quality is always guaranteed, and that there is always operational excellence.
+Talked about the necessity of monitoring petabytes of data that is transferred through their network. The necessities of providing 99% availability, and latency under 30 seconds. Mentioned it was important that architectures are API-first, use micro-services and lambdas, are scalable and secure, that data quality is always guaranteed, and that there is always operational excellence.
 
 Showed how they use Apache Kafka (message broker), Storm (processing streams), Cassandra (NoSQL DB), and Spark. He mentioned it was important that assets always push data, not pull. Finally explained they use Redis as the cache mechanism, that it's important to enable batching (i.e. in Kafka), and that consumers in Storm should be very quick.
 

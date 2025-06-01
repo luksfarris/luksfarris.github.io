@@ -2,13 +2,13 @@
 layout: post
 title:  "Lessons From 2023"
 date:   2023-12-09 05:00:00 +0100
-categories: software-engineering methodology
+categories: psychology
 permalink: /2023-lessons
 ---
 
 It feels like 2023 was a tough year for many. Speaking to colleagues, people feel like they never recovered from the 2020 pandemic. This year had a later spring, a drier summer, a shorter autumn, and we're looking at a colder winter. For me personally, I believe I learned a few powerful lessons that are worth saving for future self.
 
-I took the time to transform each section into a CBT-style (Cognitive-Behavioral-Therapy) exercice.
+I took the time to transform each section into a CBT-style (Cognitive Behavioral Therapy) exercise.
 
 # I. Be a stakeholder in everything you do
 

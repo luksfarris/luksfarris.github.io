@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Slicing Data Science"
-date:   2024-05-21 20:00:00 +0100
+title: "Slicing Data Science"
+date: 2024-05-21 20:00:00 +0100
+author: Lucas Farris
 categories: methodology
 permalink: /slicing-data-science
 ---

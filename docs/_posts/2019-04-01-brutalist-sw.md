@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "(Parody) Brutalist Software Development"
-date:   2019-04-01 12:00:00 +0100
+title: "(Parody) Brutalist Software Development"
+date: 2019-04-01 12:00:00 +0100
+author: Lucas Farris
 categories: software-engineering
 permalink: /brut-soft-dev
 ---

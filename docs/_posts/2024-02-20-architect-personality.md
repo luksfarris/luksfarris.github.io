@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Architect (INTJ) Personality Type"
-date:   2024-02-20 16:00:00 +0100
+title: "Architect (INTJ) Personality Type"
+date: 2024-02-20 16:00:00 +0100
+author: Lucas Farris
 categories: psychology
 permalink: /architect-personality
 ---

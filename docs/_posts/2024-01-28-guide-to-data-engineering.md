@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "A Practical Guide To Data Engineering"
-date:   2024-01-28 14:00:00 +0100
+title: "A Practical Guide To Data Engineering"
+date: 2024-01-28 14:00:00 +0100
+author: Lucas Farris
 categories: data-science data-engineering
 permalink: /de-guide
 published: false

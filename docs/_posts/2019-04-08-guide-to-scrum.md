@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "A Practical Guide To Scrum"
-date:   2019-04-08 12:00:00 +0100
+title: "A Practical Guide To Scrum"
+date: 2019-04-08 12:00:00 +0100
+author: Lucas Farris
 categories: methodology
 permalink: /scrum-guide
 ---

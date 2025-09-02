@@ -2,6 +2,7 @@
 layout: post
 title:  "Nothing Missing"
 date:   2025-01-19 22:00:00 +0100
+author: Lucas Farris
 categories: methodology
 permalink: /nothing-missing
 ---

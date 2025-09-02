@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "A Practical Guide To Machine Learning"
-date:   2024-01-28 14:00:00 +0100
+title: "A Practical Guide To Machine Learning"
+date: 2024-01-28 14:00:00 +0100
+author: Lucas Farris
 categories: data-science machine-learning
 permalink: /ml-guide
 published: false

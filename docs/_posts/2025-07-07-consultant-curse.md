@@ -2,6 +2,7 @@
 layout: post
 title: "The Consultant's Curse"
 date: 2025-07-07 20:00:00 +0100
+author: Lucas Farris
 categories: management
 permalink: /consultant-curse
 ---

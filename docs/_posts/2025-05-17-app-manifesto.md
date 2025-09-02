@@ -2,6 +2,7 @@
 layout: post
 title: "The Safe App Manifesto"
 date: 2025-05-17 10:00:00 +0100
+author: Lucas Farris
 categories: startup
 permalink: /safe-app-manifesto
 ---

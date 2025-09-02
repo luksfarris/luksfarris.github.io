@@ -2,11 +2,10 @@
 layout: post
 title: "Corporate Fallout"
 date: 2025-08-31 21:00:00 +0100
+author: Lucas Farris
 categories: management
 permalink: /corporate-fallout
 ---
-
-# Corporate Fallout
 
 How's it going? Summer's really over ain't it? Feels like we barely had any summer where I live. 
 Anyway, back with a fictional incident post mortem, any similarities to real life are purely coincidental.

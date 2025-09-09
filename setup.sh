@@ -9,13 +9,13 @@ else
     export PATH="$HOME/.rbenv/bin:$PATH"
 fi
 eval "$(rbenv init -)"
-# 2) make sure that ruby 2.7 is installed and active
-rbenv install -s 2.7.6
-rbenv shell 2.7.6
-# test it by running the folllowing (you may need to open a new shell)
+# 2) make sure that ruby 3 is installed and active
+rbenv install -s 3.3.3
+rbenv shell 3.3.3
+# test it by running the following (you may need to open a new shell)
 ruby --version
 # 3) install build dependencies
-gem install bundler -v 2.4.22
+gem install bundler -v 2.7.1
 bundle config set --local path 'vendor/bundle'
 bundle install
 bundle exec jekyll serve

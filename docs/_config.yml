@@ -58,7 +58,8 @@ jekyll-spaceship:
         secondaryColor: '#0b58a8'
         tertiaryColor: '#0b58a8'
         mainBkg: '#0b58a8'
-        fontFamily: 'Verdana'
+        # Changing the font makes the container width not get calculated correctly
+        # fontFamily: 'Verdana'
 
 # Exclude from processing.
 # The following items will not be processed, by default.

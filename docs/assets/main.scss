@@ -51,3 +51,11 @@ div.content:before {
 #menu li:not(:last-child):after {
     content: " | ";
 }
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}

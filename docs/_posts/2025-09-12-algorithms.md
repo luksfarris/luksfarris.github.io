@@ -10,6 +10,9 @@ permalink: /algorithms
 * Do not remove this line (it will not be displayed)
 {:toc}
 
+
+----
+
 ### Intro
 
 I haven't *really* ever applied to any "big tech" companies before.
@@ -64,6 +67,11 @@ print(list(product(range(4), repeat=2)))
 
 Similarly, you can also get all `permutations` of a list with size K using the `repeat=k` parameter.
 
+```python
+from itertools import product
+print([e for sublist in [list(product(range(3), repeat=k)) for k in range(4)] for e in sublist])
+# [(), (0,), (1,), (2,), (0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2), (0, 0, 0), (0, 0, 1), (0, 0, 2), (0, 1, 0), (0, 1, 1), (0, 1, 2), (0, 2, 0), (0, 2, 1), (0, 2, 2), (1, 0, 0), (1, 0, 1), (1, 0, 2), (1, 1, 0), (1, 1, 1), (1, 1, 2), (1, 2, 0), (1, 2, 1), (1, 2, 2), (2, 0, 0), (2, 0, 1), (2, 0, 2), (2, 1, 0), (2, 1, 1), (2, 1, 2), (2, 2, 0), (2, 2, 1), (2, 2, 2)]
+```
 
 ### Sorting
 
@@ -430,7 +438,8 @@ class TrieTree:
     def insert_leaf(self, node: Node, ix: int, word: str, value: int) -> Node:
         current_search = word[:ix]
         for c in node.children:
-            if c.ref == word: # the word exists, return it without adding
+            if c.ref == word: # the word exists, return it without adding, but update its value
+                c.value = value
                 return c
             if c.ref == current_search: # found the branch, recursion
                 return self.insert_leaf(c, ix+1, word, value)
@@ -582,7 +591,7 @@ I didn't really time myself here, or use notepad. I did these straight up on vsc
 
 #### Representations - Pointers
 
-Graph holds a list of vertices and edges. Both can be weighed. Given the list of edges, BFS is simply iterating that sorted list, so the complexity would be $\mathcal{O}(n\log n)$
+Graph holds a list of vertices and edges. Both can be weighed. Given the list of edges, BFS is simply iterating that sorted list, so the complexity would be $\mathcal{O}(E\log E)$
 
 
 ```python
@@ -651,7 +660,7 @@ if __name__ == "__main__":
 
 #### Representations - Matrix
 
-Graph holds an $N\times N$ matrix, where cells are the weight of the edge. BFS here would be $\mathcal{O}(v^2)$.
+Graph holds an $N\times N$ matrix, where cells are the weight of the edge. BFS here would be $\mathcal{O}(V + E)$.
 
 The trick to BFS is the queue: visiting a node is popping from the the queue, and adding back to it the unvisited children of the visited node. Repeat until queue is empty.
 
@@ -709,7 +718,7 @@ if __name__ == "__main__":
 
 #### Representations - Adjacency List
 
-This representation keeps a map of every node and its connections. This means finding info about a node takes $\mathcal{O}(1)$. BFS here would be $\mathcal{O}(n * v)$, since we need to iterate all connections of all nodes. I used the same queue trick as before.
+This representation keeps a map of every node and its connections. This means finding info about a node takes $\mathcal{O}(1)$. BFS here would be $\mathcal{O}(V + E)$, since we need to iterate all connections of all nodes. I used the same queue trick as before.
 
 ```python
 class Graph:
@@ -769,7 +778,7 @@ To detect cycles, one would need to implement DFS. If at any point an edge conne
 
 #### Dijkstra's Algorithm (Shortest Path)
 
-Started from the previous code, implemented in 25 minutes and 22 seconds. The time complexity here is $\mathcal{O}(n^2)$ since every node may be looking at every other node on a fully connected graph. This implementation will only work on acyclic graphs, and it will break if the graph is too large, due to the python recursion limit.
+Started from the previous code, implemented in 25 minutes and 22 seconds. The time complexity for Dijkstra is $\mathcal{O}(E \log V)$ since we visit every edge once and track the vertices in a hashmap. This implementation will only work on acyclic graphs, and it will break if the graph is too large, due to the python recursion limit.
 
 
 ```python
@@ -840,7 +849,7 @@ if __name__ == "__main__":
 #### A-Star (Shortest Path with a heuristic)
 
 This one took me 15 minutes and 50 seconds, starting from the Dijkstra implementation.
-I would suppose it also has a complexity of $\mathcal{O}(n^2)$, but the literature I found expresses it in terms of the depth of the shortest path $d$, and the "branching factor" $b$, $\mathcal{O}(d*b)$, which could be n-squared, but could be less.
+I would suppose it also has a complexity of $\mathcal{O}(V^2)$, but the literature I found expresses it in terms of the depth of the shortest path $d$, and the "branching factor" $b$, $\mathcal{O}(d*b)$, which could be V-squared, but could be less.
 
 ```python
 class Node:

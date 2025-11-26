@@ -8,9 +8,7 @@ permalink: /scrum-guide
 ---
 
 
-##### *NB*: I'm a certified Scrum Master (2014) that has been working with Scrum for almost a decade. This content is not affiliated with or sponsored by any organization. The views expressed here are mine. This document was updated many times over the years.
-
-##### Read time: 20 minutes.
+*NB: I'm a certified Scrum Master (2014) that has been working with Scrum for almost a decade. This content is not affiliated with or sponsored by any organization. The views expressed here are mine. This document was updated many times over the years.*
 
 <img src="/assets/img/scrum/rugby.jpeg">
 

@@ -28,7 +28,13 @@ I was telling myself a lie, though: in everything we do, we have to find how we'
 
 As the saying goes:
 
-<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">&quot;Chop your own wood, and it will warm you twice&quot;</p>&mdash; Lucas Farris (@luksfarris) <a href="https://twitter.com/luksfarris/status/1744837300733816864?ref_src=twsrc%5Etfw">January 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+{% include admonition.html 
+type="Quote" 
+body="<i>Chop your own wood, and it will warm you twice</i>" 
+%}
+
 
 #### Exercise 
 

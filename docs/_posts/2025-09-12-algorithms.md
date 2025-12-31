@@ -410,9 +410,13 @@ if __name__ == "__main__":
 
 #### Trie
 
-> Implement a trie build and search algorithms, for the following English words and values.
->
-> {"a": 1,"to": 2,"tea": 3,"ted": 4,"ten": 5,"i": 5,"in": 6,"inn": 7}
+{% include admonition.html 
+type="Question" 
+body="
+Implement a trie build and search algorithms, for the following English words and values. <br>
+{'a': 1,'to': 2,'tea': 3,'ted': 4,'ten': 5,'i': 5,'in': 6,'inn': 7}
+"
+%}
 
 Took me 22 minutes - search and insert are $\mathcal{O}(N)$
 
@@ -923,7 +927,12 @@ if __name__ == "__main__":
 
 #### Traveling Salesman Problem + Minimum Spanning Tree
 
-> Given a fully connected graph on N nodes, calculate the shortest tour from a node - visit every node and get back.
+{% include admonition.html 
+type="Question" 
+body="
+Given a fully connected graph on N nodes, calculate the shortest tour from a node - visit every node and get back.
+"
+%}
 
 Started this one from scratch, no IDE, to test myself. This one took me 40 minutes and 15 seconds because I spend a long time trying to remember Kruskal's algorithm. This was a high pressure test for me. When I tried to run the code after finishing, I had made 3 mistakes:
 
@@ -1031,9 +1040,14 @@ if __name__ == "__main__":
 
 I took this description from [codewars](https://www.codewars.com/kata/5c2256acb26767ff56000047):
 
-> You get a list of items and an integer for the limit of total weights (w_limit). Each item is represented by (weight, value)
-> Return the list of maximum total value with the sorted lists of all lists of values that are also sorted.
-> i.e.  [ max_value, sorted_list( sorted_list A ,sorted_list B, ... )  ]
+{% include admonition.html 
+type="Question" 
+body="
+You get a list of items and an integer for the limit of total weights (w_limit). Each item is represented by (weight, value)<br>
+Return the list of maximum total value with the sorted lists of all lists of values that are also sorted.<br>
+i.e.  [ max_value, sorted_list( sorted_list A ,sorted_list B, ... )  ]
+"
+%}
 
 The test case I tried to solve was this:
 
@@ -1100,10 +1114,14 @@ I had to read about this problem again to remember why it was $\mathcal{NP}$-com
 
 ### Linear Programming
 
-> A store has requested a manufacturer to produce pants and sports jackets.
-> 
-> For materials, the manufacturer has $750 m ^2$ of cotton textile and $1000 m^2$ of polyester. Every pair of pants (1 unit) needs $1 m^2$ of cotton and $2 m ^2$ of polyester. Every jacket needs $1.5 m ^2$ of cotton and $1 m^2$ of polyester. The price of the pants is fixed at \\$50 and the jacket, \\$40. What is the number of pants and jackets that the manufacturer must give to the stores so that these items obtain a maximum sale? - [Ref](https://www.superprof.co.uk/resources/academic/maths/linear-algebra/linear-programming/linear-programming-examples.html)
+{% include admonition.html 
+type="Question" 
+body="
+For materials, the manufacturer has $750 m ^2$ of cotton textile and $1000 m^2$ of polyester. Every pair of pants (1 unit) needs $1 m^2$ of cotton and $2 m ^2$ of polyester. Every jacket needs $1.5 m ^2$ of cotton and $1 m^2$ of polyester. The price of the pants is fixed at 50 USD and the jacket, 40 USD. What is the number of pants and jackets that the manufacturer must give to the stores so that these items obtain a maximum sale?
+"
+%}
 
+[Reference](https://www.superprof.co.uk/resources/academic/maths/linear-algebra/linear-programming/linear-programming-examples.html).
 Decided to use `pulp` because I like the syntax. Took me about 20 minutes to work it out on an IDE.
 
 Here are my notes:
@@ -1156,7 +1174,14 @@ Sample interview questions at [Software Engineer (SWE) interview prep guide](htt
 
 #### Longest Word
 
-Find the longest word that is contained in a given string. No reordering allowed. - 20 minutes - $\mathcal{O}(n * W)$
+{% include admonition.html 
+type="Question" 
+body="
+Find the longest word that is contained in a given string. No reordering allowed.
+"
+%}
+
+20 minutes - $\mathcal{O}(n * W)$
 
 ```python
 class Node:
@@ -1203,7 +1228,15 @@ Feel like there's a lot more potential here, but this is where I stopped.
 
 #### Minesweeper
 
-Implement a minesweeper field given number of rows, cols, and bombs. - 20 minutes - $\mathcal{O}(💣)$
+{% include admonition.html 
+type="Question" 
+body="
+Implement a minesweeper field given number of rows, cols, and bombs.
+"
+%}
+
+
+20 minutes - $\mathcal{O}(💣)$
 
 
 ```python
@@ -1277,7 +1310,14 @@ How cute is this?
 
 #### Decompress
 
-Decompress string using numbers to multiply text in square brackets - 30 minutes - $\mathcal{O}(N)$
+{% include admonition.html 
+type="Question" 
+body="
+Decompress string using numbers to multiply text in square brackets
+"
+%}
+
+30 minutes - $\mathcal{O}(N)$
 
 ```python
 def decompress(compressed:str, ix: int = 0) -> tuple[str, int]:
@@ -1321,8 +1361,13 @@ Some of these were randomly pick these from the list. You can find them using th
 
 #### #28 [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
-> You are climbing a staircase. It takes $n$ steps to reach the top.
-> Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+{% include admonition.html 
+type="Question" 
+body="
+You are climbing a staircase. It takes $n$ steps to reach the top.
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+"
+%}
 
 I think I've been studying trees and graphs too hard, and thought it would be a good way to put my skills in practice. This solution took me 20 minutes, and it's evidently $\mathcal{O}(n^2)$. After finishing it, and reading the problem again, I realized it was the Fibonacci sequence in disguise.
 
@@ -1400,12 +1445,14 @@ class Solution:
 
 #### #32 Former interview question: volume of lakes
 
-> Imagine an island that is in the shape of a bar graph. When it rains, certain areas of the island fill up with rainwater to form lakes. Any excess rainwater the island cannot hold in lakes will run off the island to the west or east and drain into the ocean.
->
-> Given an array of positive integers representing 2-D bar heights, design an algorithm (or write a function) that can compute the total volume (capacity) of water that could be held in all lakes on such an island given an array of the heights of the bars. Assume an elevation map where the width of each bar is 1.
->
-> Example: Given [1,3,2,4,1,3,1,4,5,2,2,1,4,2,2], return 15 (3 bodies of water with volumes of 1,7,7 yields total volume of 15) 
-
+{% include admonition.html 
+type="Question" 
+body="
+Imagine an island that is in the shape of a bar graph. When it rains, certain areas of the island fill up with rainwater to form lakes. Any excess rainwater the island cannot hold in lakes will run off the island to the west or east and drain into the ocean.<br>
+Given an array of positive integers representing 2-D bar heights, design an algorithm (or write a function) that can compute the total volume (capacity) of water that could be held in all lakes on such an island given an array of the heights of the bars. Assume an elevation map where the width of each bar is 1.<br>
+Example: Given [1,3,2,4,1,3,1,4,5,2,2,1,4,2,2], return 15 (3 bodies of water with volumes of 1,7,7 yields total volume of 15) 
+"
+%}
 
 ##### Attempt 1
 
@@ -1521,14 +1568,17 @@ The leetcode solution is so much more elegant though :')
 
 #### #33 Former interview question: Flatten Iterators
 
-> Given an iterator of iterators, implement an interleaving iterator
->
-> In object-oriented programming, the iterator pattern is a design pattern in which an iterator is used to traverse a container and access the container's elements. The iterator pattern decouples algorithms from containers; in some cases, algorithms are necessarily container-specific and thus cannot be decoupled.
-> Given an iterator of iterators, implement an interleaving iterator that takes in an iterator of iterators, and emits elements from the nested iterators in interleaved order. That is, if we had the iterators i and j iterating over the elements [ia, ib, ic] and [ja, jb] respectively, the order in which your interleaving iterator should emit the elements would be [ia, ja, ib, jb, ic].
->
-> Your interleaving iterator should implement the Iterator interface, take in the iterator of iterators in its constructor, and provide the next and hasNext methods. Assume that there are no additional methods offered by the iterator.
->
-> Given the following three iterators put into an array of iterators…
+{% include admonition.html 
+type="Question" 
+body="
+
+Given an iterator of iterators, implement an interleaving iterator.<br>
+In object-oriented programming, the iterator pattern is a design pattern in which an iterator is used to traverse a container and access the container's elements. The iterator pattern decouples algorithms from containers; in some cases, algorithms are necessarily container-specific and thus cannot be decoupled.<br>
+Given an iterator of iterators, implement an interleaving iterator that takes in an iterator of iterators, and emits elements from the nested iterators in interleaved order. That is, if we had the iterators i and j iterating over the elements [ia, ib, ic] and [ja, jb] respectively, the order in which your interleaving iterator should emit the elements would be [ia, ja, ib, jb, ic].<br>
+Your interleaving iterator should implement the Iterator interface, take in the iterator of iterators in its constructor, and provide the next and hasNext methods. Assume that there are no additional methods offered by the iterator.<br>
+Given the following three iterators put into an array of iterators…
+"
+%}
 
 This one was easier, took me 10 minutes, mostly to remember the iterator syntax
 
@@ -1574,29 +1624,27 @@ The resource library suggested using a queue for the iterators, which yes, would
 
 #### #34 Former interview question: word squares
 
-> A “word square” is an ordered sequence of K different words of length K that, when written one word per line, reads the same horizontally and vertically. For example:
->
-> BALL
-> AREA
-> LEAD
-> LADY
-> 
-> In this exercise you're going to create a way to find word squares.
-> 
-> First, design a way to return true if a given sequence of words is a word square.
-> 
-> Second, given an arbitrary list of words, return all the possible word squares it contains. Reordering is allowed.
-> 
-> For example, the input list
-> 
-> [AREA, BALL, DEAR, LADY, LEAD, YARD]
-> 
-> should output
-> 
-> [(BALL, AREA, LEAD, LADY), (LADY, AREA, DEAR, YARD)]
-> 
-> Finishing the first task should help you accomplish the second task.
-    
+{% include admonition.html 
+type="Question" 
+body="
+A “word square” is an ordered sequence of K different words of length K that, when written one word per line, reads the same horizontally and vertically. For example:<br>
+BALL<br>
+AREA<br>
+LEAD<br>
+LADY<br>
+<br>
+In this exercise you're going to create a way to find word squares.<br>
+First, design a way to return true if a given sequence of words is a word square.<br>
+Second, given an arbitrary list of words, return all the possible word squares it contains. Reordering is allowed.<br>
+<br>
+For example, the input list<br>
+[AREA, BALL, DEAR, LADY, LEAD, YARD]<br>
+should output<br>
+[(BALL, AREA, LEAD, LADY), (LADY, AREA, DEAR, YARD)]<br>
+<br>
+Finishing the first task should help you accomplish the second task.
+"
+%}  
 
 This one took me about 12 minutes
 
@@ -1633,7 +1681,12 @@ I made 3 mistakes:
 
 #### #37 [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 
-> Given an integer array $nums$, return the length of the longest strictly increasing subsequence.
+{% include admonition.html 
+type="Question" 
+body="
+Given an integer array $nums$, return the length of the longest strictly increasing subsequence.
+"
+%}
 
 I started this one with a quadratic version - 10 minutes - $\mathcal{O}(n^2)$.
 
@@ -1670,13 +1723,17 @@ class Solution:
 
 #### #58 Find max span (Java)
 
-> Consider the leftmost and rightmost appearances of some value in an array. We'll say that the "span" is the number of elements between the two inclusive. A single value has a span of 1. Returns the largest span found in the given array. (Efficiency is not a priority.)
-> 
-> maxSpan([1, 2, 1, 1, 3]) → 4
-> 
-> maxSpan([1, 4, 2, 1, 4, 1, 4]) → 6
-> 
-> maxSpan([1, 4, 2, 1, 4, 4, 4]) → 6
+
+{% include admonition.html 
+type="Question" 
+body="
+Consider the leftmost and rightmost appearances of some value in an array. We'll say that the 'span' is the number of elements between the two inclusive. A single value has a span of 1. Returns the largest span found in the given array. (Efficiency is not a priority.)<br>
+<br>
+maxSpan([1, 2, 1, 1, 3]) → 4<br>
+maxSpan([1, 4, 2, 1, 4, 1, 4]) → 6<br>
+maxSpan([1, 4, 2, 1, 4, 4, 4]) → 6
+"
+%}
 
 My solution took 9 minutes and 35 seconds. It's $\mathcal{O}(n^2)$. There must be a better way to do this.
 

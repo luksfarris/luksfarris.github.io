@@ -23,6 +23,10 @@ list_title: ' '
 
 <a href="./ar.pdf" target="_blank">Augmented Reality In Review</a>
 
+### March 2016
+
+SceneKit Overview – intro to the main concepts of the framework - <a href="https://imasters.com.br/back-end/scenekit-overview-introducao-aos-principais-conceitos-do-framework" target="_blank">Article In Portuguese</a>
+
 
 ### September 2015
 

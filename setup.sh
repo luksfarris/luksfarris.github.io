@@ -10,8 +10,8 @@ else
 fi
 eval "$(rbenv init -)"
 # 2) make sure that ruby 3 is installed and active
-rbenv install -s 3.3.3
-rbenv shell 3.3.3
+rbenv install -s 3.3.0
+rbenv shell 3.3.0
 # test it by running the following (you may need to open a new shell)
 ruby --version
 # 3) install build dependencies

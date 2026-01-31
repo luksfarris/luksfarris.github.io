@@ -3,7 +3,7 @@ layout: post
 title: "Best Manager Ever"
 date: 2026-01-31 12:00:00 +0100
 author: Lucas Farris
-categories: miscellaneous
+categories: management
 permalink: /best-manager-ever
 ---
 
